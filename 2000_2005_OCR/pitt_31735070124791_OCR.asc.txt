@@ -1,0 +1,4222 @@
+.,.,..‘._ kt ,_ 
+
+ 
+
+zs [Jaw
+Pi t t ’s
+German department views
+itself — and a national foreign
+language association agrees. See
+page 6.
+
+University launches attack  
+
+ 
+
+JUNE 10, 2004
+
+on computer viruses, spam
+
+  
+ 
+
+§ired ofunsolicited  e-
+mail clogging your inbox
+with promises of getting
+
+rich, reﬁnancing your mortgage
+
+or increasing your penis size?
+
+E—mail is becoming an endan-
+gered communication vehicle,
+some computer industry experts
+say, because _users increasingly
+are so turned off by unsolicited
+messages they are avoiding e—mail
+entirely.
+
+But Pitt has done something
+about the annoying, omnipres-
+ent bulk e—mail known as spam.
+VVhile employees and students
+were sleeping last Saturday, Pitt’s
+Computing Services and Systems
+Development (CSSD) personnel
+installed a new spam and virus
+i_I..I. ' " I,‘ ‘I '6 1.
+
+avai a ta ‘.":».‘    ~ » e.. . 
+
+Industry estimates project that
+40 — 80 percent of the more than
+40 billion e-mails sent worldwide
+daily are spam.
+
+But what constitutes spam is
+in the eye of the beholder. So Pitt
+has purchased software that ﬂags
+spam but does not immediately
+delete it, allowing users two
+weeks to judge for themselves,
+according to CSSD director
+Jinx Walton.
+
+The new service, which also
+is designed to protect Pitt users
+against e—mail viruses, is the prod-
+uct of Postini, Inc., a California-
+based provider of e—mail security
+and management solutions that
+
+U.S. Rep. John
+Murtha. D-.lohn-
+stown, visited
+Pitt this week to
+announce
+
+the creation of a
+center to accel-
+erate commer-
+cialization and
+production of
+tedanology
+
+to help first
+responders deal
+with terrorist
+attacks. Also
+speaking at the
+June 7 news con-
+ference was Ann
+Dugan. assistant
+dean of the
+
+Katz Graduate
+School of Busi-
+ness's Institute
+for Entrepreneur‘-
+ial Excellence,
+where the new
+center will be
+based.
+
+Patricia Nagle/CIDDE
+
+protect e—mail infrastructure by
+preventing spam and virus attacks
+from reaching an enterprise gate-
+way, in Pitt’s case the primary e-
+mail inbox.
+
+The Postini spam and virus
+e—mail ﬁlter scans all incom-
+ing e—mail addressed to a
+University computer account
+(username@pitt.edu).
+
+(A caution: The software
+does not ﬁlter e—mail sent to
+other accounts Pitt employees
+and students may have, such
+as personal e—mail‘ accounts
+or departmental accounts,
+e.g., username@cssd.pitt.edu,
+Walton said. However, messages
+ﬁmvarded to a University account
+will be ﬁltered by the service. The
+
+1,4   .
+
+e .7
+
+well, Walton said, something tha
+requires the ﬁlters to be installed
+on department servers.)
+
+E-mails suspected of being
+spam or containing a virus
+are “quarantined” in the main
+window of the user’s “Message
+Center,” a gadget  that can
+be accessed through my.pitt.edu.
+(My.pitt.edu is the University’s
+web portal service that allows
+Pitt users to customize their view
+of the University’s various web
+sites and services in addition to
+commonly used Intemet—based
+services.)
+
+Once connected, the message
+center is linked uniquely to the
+
+user’s portal home page, known as
+“My Page.” Thus, messages quar-
+antined in the message center are
+secure, that is, accessible only by
+the authorized user or a message
+center administrator.
+
+The e—mail addressee is noti-
+ﬁed by the ﬁltering service that
+an incoming e—mail is suspicious.
+(See sidebar on page 4.) Messages
+remain in the message center
+for 14 days and then are deleted
+automatically.
+
+“No [filtering] system is
+foolproof,” Walton acknowl-
+edged. “We carefully evaluated
+all of these solutions that were
+out there. Some solutions did
+delete messages right away; some
+delivered them to your mailbox
+7 es .;
+
+II. ‘  .3.--.I_..o.--
+
+ii  *0 se i
+
+solution gives you that two—week
+period. It notiﬁes you that spam
+is there, and it ﬁlters for viruses
+too. During that two weeks,
+you can view your messages in
+the message center and forward
+any messages you want to keep
+directly to your inbox, or you
+can delete them from there,”
+Walton said. “It’s fairly intuitive
+and straightforward to use.”
+The quarantine function
+allows users to open messages
+with suspected viruses in the
+message center without danger
+of spreading the virus to their
+computer, she added.
+CONTINUED ONPAGE4
+
+.,—..u.,,.,..,c.,...,»—-,-a  ..._~,., .
+
+   
+
+ Sylvanus N. Wosu, associate professor and assistant dean
+
+ 
+
+An expedited faculty grievance plan
+is expected to be implemented.......2
+
+A Senate group wants more Pitt
+employees to take up residence in
+
+Oakland ................  ....... 
+
+Patricia Nag e/CIDD
+
+or diversity in the School of Engineering, accepted the 2004 .
+hancellor's Affirmative Action Award June 7 from Chancel-
+or Mark A. Nordenberg (looking on) on behalf of the engi-
+
+ neering school's Office of Diversity.
+
+:—;; In 2001, Wosu's office created the Pitt Engineering Career
+
+, ;Access Program, which has pre-college and college com-
+
+9' ponents for underrepresented minorities. Enrollments of
+
+ African-American students at Pitt’s engineering school
+
+ consistently have been above the national average, and the
+ercentage of blacks earning B.S. degrees from the school is
+
+' 199
+
+ 
+
+  
+
+as risen signi cantly sinc
+   .  ‘ A» 
+
+lst respon
+
+ 
+
+.2.
+
+    
+  
+
+8}’
+
+center funded by Defense
+
+e U.S. Defense Depart-
+ment is establishing a
+center at Pitt to speed
+commercialization and produc-
+tion of technology to aid police,
+firefighters and emergency
+medical workers in dealing with
+terrorist attacks.
+
+At ajune 7 news conference,
+Pitt officials and U.S. Rep.
+John Murtha, D—Johnstown,
+announced creation of the
+Department of Defense Tech-
+nology Transfer and Comer-
+cialization National Center for
+Excellence for First Responder
+Technologies. It will work with
+research centers at Pitt, 88
+Defense Department research
+labs and private industry in
+western Pennsylvania.
+
+Funded by an initial $1.9
+
+million federal grant (with the
+expectation of future federal
+funding), the new center will
+be housed in the Pantherlab
+Works, part of the Katz Gradu-
+ate School of Business’s Institute
+for Entrepreneurial. Excellence.
+Pantherlab Works is Pitt’s center
+for acceleration of technology
+commercialization in south-
+western Pennsylvania.
+
+“After the terrorist attacks of
+Sept. 11, 2001,”Murthasaid, “our
+nation’s first responders. . .proved
+in a very visible, dramatic way
+what we’ve always known:
+They’ re heroes, too. And like our
+military personnel, they need the
+best available technologies and
+equipment to be successful.”
+
+Murtha cited the problems
+
+CONTINUED ON PAGE 2
+
+ 
+
+ 
+
+UNIVERSITY TIMES
+
+Expedited faculty grievance
+procedure to be adopted
+
+itt facultywith grievances
+
+P against their administra-
+
+tors or colleagues soon
+
+will have a new, expedited pro-
+cedure for seeking redress.
+
+The new process —— the result
+of several years of off-and—on
+talks between the Provost’s ofﬁce
+and an ad hoc University Senate
+committee —— will be available to
+full- and part-time faculty and
+faculty librarians as a speeded—
+up alternative to Pitt’s regular
+grievance procedure.
+
+Both the expedited and
+regular procedures are intended
+for grievances not speciﬁcally
+covered by University policies
+on sexual harassment, racial dis-
+crimination, negative evaluations
+of a faculty member’s professional
+work and dissatisfaction with
+individual salary decisions.
+
+“For example,” Vice Pro-
+vost for Faculty Affairs Andrew
+R. Blair explained, “if faculty
+members feel that they’re being
+treated unfairly in terms of teach-
+ing assignments, or that their pro-
+fessional work is suffering as the
+result of what they believe to be a
+hostile work environment, these
+
+[expedited and regular] grievance
+procedures would apply. The
+procedures are meant to cover
+a wide range of actions and
+decisions that faculty members
+believe have adversely affected
+their professional development,
+but which are not covered by
+other existing policies.” .
+
+Senate Council unanimously
+endorsed the expedited grievance
+procedure June 7, but Council
+actions are advisory only. How-
+ever, Provost James V. Maher,
+who serves on the Council
+along with Chancellor Mark
+A. Nordenberg and other Pitt
+administrators, conﬁrmed after
+the meeting that the administra-
+tion will indeed offer the expe-
+dited procedure as an alternative
+to the regular one.
+
+Former Senate president
+Nathan Hershey, who chaired
+the ad hoc committee on the
+expedited review process, said an
+accelerated process was needed
+because, under the regular pro-
+cedure, some cases have dragged
+on to the point that complainants
+had left Pitt before their griev-
+
+ances were resolved.
+
+John L. “Jack” Kams
+
+John L. “Jack” Karns, a profes-
+sor, department chair and attor-
+ney who taught criminal justice
+and legal studies courses at Pitt
+
+p for more than three decades, died
+
+on May 6, 2004. He was 61.
+Kams had been hospitalized
+recently with heart problems and
+had had a pacemaker installed,
+but his death was unexpected,
+said a spokesperson at the
+Graduate School of Public and
+International Affairs (GSPIA),
+where Kams was an associate
+professor and director of the
+graduate criminal justice minor
+in the school’s public and urban
+affairs division. »
+Karns, who also held a joint
+appointment in the sociology
+department, “was an incredible
+teacher and cared a great deal
+about his students,” said Lee
+Weinberg, an associate profes-
+
+ 
+
+UNIVRSITY
+
+TIMES
+
+EDITOR
+
+N]. Brown 412/624-1373
+
+ASSISTANT EDITOR
+Bruce Steele 412/624-1379
+
+warren
+412/624-1374
+
+BUSINESS MANAGER
+Barbara DelRaso 412/624-4644
+
+Events Calendar“. 41 2/624-I 3 76
+
+The University Times is published bi-weelely on
+Thursdays by the University of Pittsburgh.
+Send C cc to University Times, 308
+Belleﬁeld all, Universi 0 Pimbu [7, Pitts-
+burgh, PA 15260; via F :4l2/62 45790r
+via email: njImrwn@pitt.edu.
+Subsmptimrsareavailableatacastof$12. 50for
+the renwindertftbepublisbingyear, which emit
+in uly. Make checks payable to the Uaivmity
+of ittslmrgh.
+
+The University Times isavailable electronically
+
+Peter Hart
+
+atsbttp://zmzrw.pitt.edu/utimes/ut.bt1nl
+
+sor and undergraduate division
+director at GSPIA. “He was a
+visionary — he built the admin-
+istration of justice and legal stud-
+ies programs in the College of
+General Studies” (CGS), which
+annually enrolled more than 900
+undergraduates and 50 graduate
+students, and employed 10 full-
+time and 21 part-time faculty
+members. In 1987, the program
+moved to GSPIA.
+
+Paralyzed by a neckinjury suf-
+fered in a high school wrestling
+match, Kams put other people
+at ease about his disability and
+didn’t allow it to stop him from
+pursuing his career in academics,
+consulting and the law, according
+to Weinberg.
+
+After serving at Pitt as a senior
+teaching associate in sociology,
+Kams was promoted in 1972 from
+acting director to director of the
+administration of justice program
+in CGS. He directed that pro-
+gram, as well as the Department
+of Interdisciplinary Studies in
+Law andJustice, until 1987. From
+
+1987 to 1989, he was director and
+associate professor in GSPIA’s law
+and justice concentration.
+
+In addition to serving as a
+professor and administrator in
+GSPIA from the late 1980s to
+2004, Kams was a consultant for
+a number of government agencies
+including the Allegheny County
+public defender’s office (2001-
+04), the International Manage-
+
+ment Development Institute in
+Djakarta, Indonesia (1993 and
+1994) and the Commonwealth
+of the Bahamas (1989-90).
+
+Karns earned all of his aca-
+demic degrees —— including a
+J.D., Ph.D. and M.A. degrees in
+sociology, and a B.A. in political
+science — from Pitt.
+
+He is survived by his wife,
+Margaret E. Karns, and a
+daughter.
+
+——Bruce Steele I
+
+One reason for this, Her-
+shey and Provost Maher agreed,
+is that it’s sometimes difficult
+to coordinate the schedules of
+faculty members who serve on
+three—member grievance panels.
+Also, some cases are especially
+complex and time-consurning
+to investigate.
+
+The expedited procedure will
+offer faculty the option of having
+their grievances investigated by
+a single hearing ofﬁcer selected
+by the provost in consultation
+
+with the Senate president (and,
+if the faculty member is from
+the Health Sciences, the senior
+vice chancellor for Health Sci-
+ences). ,
+
+If dissatisfied with the
+provost’s choice of a hearing
+ofﬁcer, the faculty member seek-
+ing redress has ﬁve days to opt
+instead for the regular grievance
+procedure.
+
+Under both systems, investi-
+gators report their recommenda-
+tions for resolving the grievance
+to the provost, Whose subsequent
+ruling completes the process.
+
+Under the regular procedure,
+a panel of three faculty members
+(chosen from among the elected
+members of Faculty Assembly)
+considers a grievance.
+
+Provost Maher said: “The
+
+problem with the regular process
+is that if the faculty who serve on
+the grievance panels are not able
+to drop everything and work on
+nothing else, the process can take
+a while.”
+
+Maher called the regular
+grievance process “a good one”
+and “the appropriate process
+for ahnost all of the faculty.” He
+said one reason it took so long for
+Senate leaders and the Provost’s
+office to agree on an expedited
+procedure “is that I wanted to
+make sure that any expedited
+process will not in any way
+undermine the existing one.”
+
+Typically, only one or two
+faculty members a year use the
+grievance procedure, Maher
+said.
+
+—Bruce Steele I
+
+1st responder technology center
+funded by Defense Department 1
+
+CONTINUED FROM PAGE I
+
+that emergency crews from the
+
+District of Columbia, Maryland
+
+and Virginia had communicating
+with one another in the wake of
+the 9/11 attack on the Pentagon.
+
+Better communication technolo-
+
+gies represent just one research-
+
+and-commercialization area that
+the new center for excellence
+
+might pursue, he said.
+
+James E. Rooney, director of
+Pantherlab Works, noted current
+Pitt research to adapt technolo-
+gies originally created for U.S.
+Navy SEALS to develop noise-
+blocking helmets. By transmit-
+ting sound through  base,
+the helmets would allow first
+responders to hear instructions
+over the noise of fires and crash-
+ing buildings. ‘
+
+Chancellor Mark A. Nor-
+denberg mentioned, among
+other Pitt research projects,
+electrical engineering professor
+Marlin Mickle’s work on using
+radio frequency technology to
+create a battery—free, constantly
+recharging power source “that
+could be extremely important
+to ﬁrst responders.”
+
+Murtha, a Pitt alumnusand
+the ranking member of the U.S.
+House’s Defense Appropriations
+Subcommittee, said the new
+center “is not just something for
+Pittsburgh. This is not just some-
+thing for western Pennsylvania.
+
+This is for the nation, because we
+need to take this technology that’s
+being developed — and we’re
+developing various technologies
+right here at the University— and
+get it out to the people and make
+it cost-effective so they can afford
+to buy it. «—
+
+He added: “That’s what it’s
+really all about. If we have it
+on the shelf it doesn’t do us any
+good.”
+
+Rooney said the new center
+will analyze first-respond-
+ers’ needs, identify promising
+research at Pitt and elsewhere,
+and.   .¢9.I.I1PaI1ie.$..tl1?!t
+can commercialize it. A H '
+
+“We believe that many of the
+needs that these ﬁrst responders
+will require support the expan-
+sion, creation and growth -of
+industry clusters in which the
+University of Pittsburgh and
+other western Pennsylvania
+research centers have already
+established themselves as world
+leaders,” said Rooney. ,
+
+Once a viable project has
+been identiﬁed, he said, the
+center will leverage University
+resources, (including the Office
+of Technology Management, to
+move these innovations from
+laboratory to market.
+
+“We believe the outcome of
+this project will provide sub-
+stantial beneﬁt to the needs of
+
+our nation’s ﬁrst responders and
+to all citizens in the event of a
+disaster,” Rooney said. “We also
+believe this national center will
+expand western Pennsylvania’s
+
+/ economy by capitalizing on our
+
+research strengths to create new
+business opportunities and, ulti-
+mately, jobs.”
+
+Rooney cited a recent report
+by the Council on Foreign
+
+Relations claiming that America »
+
+is “dangerously unprepared” for
+additional terror attacks. The
+council’s report recommends
+
+that the United States spend
+
+, V up, to $98 billionyto prepare for
+
+potential attacks.
+
+Pitt officials and Murtha said
+the new center should help to
+bring some of those funds to
+western Pennsylvania.
+
+Chancellor Mark A. Norden-
+berg said Pitt is “truly honored”
+to be chosen as the ﬁrst campus
+to house a Defense Department
+center of excellence in ﬁrst-
+responders teclmologies.
+
+“While Pitt and the Uni-
+versity of Pittsburgh Medical
+Center are -established leaders
+in bioterrorism preparedness,
+the new center will harness tech-
+nological innovation to help first
+responders who risk their lives to
+protect the public,” the chancel-
+lor said.
+
+—Br_uce Steele I
+
+I-Iqighest salaries jarring
+
+To_ the editor:
+
+Isn’t there something jarring,
+even shameful in reading about
+the huge salaries made by ‘phy-
+sicians associated with the Uni-
+versity (“No surprises on Pitt’s
+list of highest-paid non—ofﬁcer
+employees,”May27, 2004)? Isn’t
+medicine a helping profession, a
+dedication? Yet we see listed in
+the UniversityTimes the salaries
+
+of Pitt physicians in amounts of
+over one million dollars through
+the high hundreds of thousands
+down to the lower multiples of a
+hundred thousand.
+
+In some way teaching and
+research here seems reduced to
+the mostly acquisitive, the Uni-
+versity to a scheme for personal
+enrichment, the medical profes-
+
+sion to wealth over learning. It »
+
+30.9 Belleﬁeld Hall.
+
+University Times letters policy
+
+Letters should be submitted at least one week prior to publication. Persons
+criticized in a letter will receive a copy of the letter so that they may prepare a
+response. If no response is received, the letter will be published alone.
+
+Letters can be sent Q! e-mail to njbrown@pitt.edu or by campus mail to
+
+The University Times reserves the right to edit letters ﬁir clarity or length.
+Individuals are limited to two published letters per academic term. Unsigned
+letters will not he accepted ﬁr publication.
+
+also offers us an insight into one
+reason why the U.S. spends so
+much more on health than other
+industrial nations, most of which
+have higher standards of general
+care (but not higher paid physi-
+cians!), as judged by their better
+records on infant mortality and
+longevity. We have rich doctors,
+buttens ofmillionswithoutmedi-
+calinsurance, most ofwhom don’t
+receive and can’t afford adequate
+care or even any care. Also, how
+sufﬁcient, one wonders, are the
+wages of the nursing assistants,
+the secretaries, the. cleaning
+and food service staffs at Uni-
+versity hospitals, amidst all this
+
+largesse?
+Jim Scoﬁeld
+Humanities Division
+Johnstown campus
+
+*3!‘
+
+Senate honors its own
+
+Patricia Nag/e/CIDDE
+
+Debora Rougeux (left) and Patricia Kolar, co-chairs of the Senate's commonwealth rela-
+tions committee. received the 2004 Award for Service in the University Senate from Senate
+President Nicholas G. Bircher during the June 7 Senate Council meeting.
+
+Bircher said that Rougeux and Kolar "embody the commonwealth relations committee's
+mission to foster and promote mutual understanding between the faculty and state gov-
+
+ernment." V
+
+Kolar. of social work, has served on the committee since 1998 and has chaired or co-
+chaired it since 1999. Rougeux, of Pitt's Archivalservice Center, is a former Senate vice
+
+president and secretary who h
+
+since 2001.
+
+enate, SAC leaders laud retir
+
+as served on the committee since 2000 and has co-chaired it
+
+JUNE 10,2004
+
+Improved recreation
+facilities for staff &
+faculty recommended
+
+itt would “substantially
+
+renovate and improve”
+
+Belleﬁeld Hall and Trees
+Hall recreation facilities available
+to staff and faculty, under a plan
+submitted recently to Chancellor
+Mark A. Nordenberg.
+
+The report came from a chan-
+cellor-appointed committee that
+studied staff and faculty exercise
+sites, among other campus facili-
+ties.
+
+Paraphrasing the report — a
+copy of which sat open on the
+meeting table in front of him
+—Herbert Chesler, co-chair of
+the University Senate beneﬁts
+and welfare committee, told
+Faculty Assembly June 1 that
+the report’s recommendations, if
+followed, would make the Belle-
+field and Trees workout facilities
+“moi'e welcoming to faculty and
+staff, I believe.”
+
+Chesler represented the
+Senate benefits and welfare
+committee on the chancellor-
+
+_ appointed group. He refused to
+quote the report’s actual wording.
+
+ee health
+
+lan but object to lack of consultation
+
+itt’$ new ,IT1.¢,C1,iC.3,1,.iI1SUI'
+ance beneﬁts program
+covering future retirees
+' CC 37 '
+isa humane and sensible wayto
+help hold down the University’s
+
+soaring health insurance , pre-
+
+miums, members of the Staff.
+
+Association Council (SAC) and
+the University Senate’s beneﬁts
+and welfare committee agree.
+
+It’s just too bad, they say,
+that Pitt’s Human Resources
+office and its medical insur-
+ance consultants,didn’t consult
+with SAC or the Senate before
+announcing the new plan, which
+will take effect July 1. ’
+
+“Shared governance did
+not playa part in the decision
+to adopt. .the new plan,” SAC
+President Rich Colwell told the
+University Times.
+
+’ “VVhether the plan would
+
+have been changed in any way,
+shape or form if we’d had input,
+I have no idea. But_we would
+have felt more conﬁdent about
+it if we’d had input.” _
+
+That said, Colwell called
+
+the plan “a very good deal” for
+
+Pitt and its retirees. “If we had
+formed a committee and looked
+into [medical insurance options
+for retirees] we probably could
+not have come up with anything
+better than the plan that Human
+Resources came up with,” he
+said.
+
+Herbert Chesler, co-chair of
+the Senate committee, told Fac-
+ulty Assembly on June _I that the
+new plan represents “an accept-
+able solution to a real problem
+confronting the University.” Pitt
+officials say the University will
+pay about $6.2 million in retiree
+and spouse medical premium
+costs during the current ﬁscal
+year, a 35 percent increase over
+last year. That commitment is
+
+expected to inc_rease in future
+years with rising health care costs,
+a growing retiree population and
+longer life spans.
+Announcement of the new
+plan —- details of which were
+first made public in the May
+24 Pitt Chronicle 4 “resolves a
+source of anxiety,” Chesler said.
+“We’Ve been reading in the
+newspapers for the last several
+years that other employers have
+been eliminating their medical
+insurance programs for retirees.
+The law has been interpreted in
+
+such a way that employers were _
+
+not obligated to provide medical
+insurance for retirees.”
+
+J After reading the Chronicle
+story, Chesler said, "‘you would
+have come away with the sense
+that Pitt’s Board of Trustees was
+exercising its ﬁduciary responsi-
+bility and was indeed behaving
+responsibly” in telling Human
+Resources to scale back on the
+University’s retirement medical
+beneﬁts program.
+
+“How nice it would have
+been,” the Senate beneﬁts and
+welfare co-chair added, “if the
+
+board had instructed Human.
+
+Resources to involve our com-
+
+mittee” in its deliberations on
+
+the new plan.
+The new plan includes new
+
+cost-sharing measures and a
+service eligibility requirement
+for new hires. '
+
+Pitt staff and faculty who
+already are retired will continue
+to be covered by the current plan,
+under which Pitt pays the full cost
+of medical insurance for retirees
+and their spouses older than 65.
+For current retirees aged 62-65
+and their spouses, the Univer-
+sity covers 80 percent of those
+costs.
+
+Plan details are available from
+Human Resources.
+
+Staff and faculty approaching
+retirement age will receive mail-
+ings from Pitt about the plan.
+
+to Faculty Assembly or give the
+University Times a copy of the
+report until Chancellor N orden-
+berg has reviewed it.
+
+Chesler’s Senate committee
+has given up pushing for faculty
+and staff access to the Petersen
+Events Center’s Bill Baierl Stu-
+dent Recreation Center. Nor~
+denberg had steadfastly denied
+that request, even before a 2003
+student usage study found that
+the student—only Baierl Center
+was operating at full capacity.
+
+Also at the June 1 Assembly
+meeting, members rejected join-
+ing a national coalition of faculty
+senates advocating comprehen-
+sive reform of NCAA Division
+I-A athletics.
+
+The Assembly voted 18-8
+(with one abstention) to endorse
+a resolution by the Senate athletic
+committee, which argued against
+Pitt’s Senate either joining the
+Coalition On Intercollegiate
+Athletics (COIA) or endorsing
+the coalition’s framework for
+reform. Assembly members also
+voted to send the coalition a copy
+of a Senate athletic committee
+report criticizing some aspects
+of COIA, together with a cover
+letter from Senate President
+
+J Nicholas G. Bircher.
+
+Senate athletic committee
+co-chairs Tony Eichelberger and
+Williaing C.‘ Zarnboni said their
+committee supported COIA’5
+overall goal of promoting fac-
+ulty involvement in running
+intercollegiate athletics,.but they
+questioned some of the coalition’s
+motives and its refusal to consider
+suggested amendments from new
+member Senates to the group’s
+framework.
+
+The vote on the athletic
+committee’s resolution had been
+tabled ﬁom Faculty Assembly’s
+May 4 meeting. See May 13
+University Times, available at:
+www.pitt.edu/utimes/ut.html.
+Click on Back Issues.
+
+—Bruce Steele — I
+
+Deadline
+looms for
+anti sexual
+harassment
+
+on-line
+training
+
+itt staff, faculty and
+
+students have until
+
+July 31 to complete a
+web-based course, “Preventing
+Sexual Harassment,” aimed at
+ensuring compliance with the
+University’s policy against sexual
+harassment. ‘
+
+Completion of the course
+is mandatory for all staff and
+“highly recommended” for
+faculty and students,” accord-
+
+.ing to Pitt’s Office of Human
+
+Resources. -
+
+That distinction has irked
+some staff employees, including
+members of the staff councils
+at the Pittsburgh, Bradford,
+Greensburg and Johnstown
+campuses, who met here May 6
+at the annual Council of Cam-
+puses gathering.
+
+“VVhy is it ‘mandatory’ for
+staff but only ‘recommended’
+for faculty?” asked one annoyed
+
+-Johnstown council member.
+
+“Really, completing the
+course is mandatory for faculty,
+too,” said Provostjames V Maher
+
+this week. “All faculty, staff and
+students are strongly urged to
+complete it.”
+
+Pitt held mandatory meet-
+ings for faculty several years ago
+about sexual harassment, the
+provost noted. “We’re hoping
+that web-based courses like the
+one currently being offered will
+eliminate the need for more of
+those meetings,” he said.
+
+“There are no sanctions
+against anyone who doesn’t
+complete the course,” said Ron
+Frisch, associate vice chancel-
+lor for Human Resources, “but
+we want to encourage people
+strongly to take it. Everyone in
+the organization, from the top
+down, believes thisis important.
+
+We’re encouraging the faculty as a
+
+well as the staff, very much so,
+to do this.” _
+Offering the course should
+not be misconstrued as indicat-
+ing that sexual harassment is rife
+at Pitt, Frisch added. “It’s just that
+we want everyone to have as much
+information and knowledge as
+
+-will fail to reach addressees.
+
+possible about this subject. '
+This is a case where knowledge
+is strength,” he said. .
+
+SAC President Rich Colwell
+said some staff who have yet to
+complete the on-line course
+told him they never received
+the original memo (dated Oct.
+7, 2 003) from Human Resources
+informing employees about it.
+The ﬁrst they heard about the
+course, they said, was via an April
+14 follow-up memo telling them
+that Human Resources records
+indicated they hadn’t taken it
+yet, and that July 31 was the
+deadline. After that date, Pitt’s
+authorization to use the course
+program will expire.
+
+Frisch said it’s always possible
+that some campus—mail memos
+
+“The important thing is that
+
+people complete the course,”
+
+he emphasized. 
+Thecoursecanbeaccessedat:
+
+Www.newmedialearning.com/
+
+psh/pitt.
+
+——Bruce Steele if Peter Hartl,
+
+ 
+
+UNIVERSITY TIMES
+
+Pitt attacks computer viruses, spam
+
+CONTINUED FROM PAGE I
+
+The virus ﬁltering service has
+
+been installed on all University"
+
+computer accounts and cannot be
+de—activated by Pitt users, Walton
+said. But users are required to
+activate the spam ﬁltering ser-
+vice manually through the Pitt
+web portal (my.pitt.edu).
+
+To get started on the new ﬁl-
+tering SCI’VlC€, visit my.pitt.edu,
+click the “VVhat’s New” tab
+and follow the instructions for
+accessing the message center
+and activating the spam ﬁltering
+service.
+
+Once the message center
+gadget has been connected to
+the user’s Pitt portal home-
+page, known as “My Page,”
+users should:
+
+° Go to the message center
+site and click on “Junk Email Set-
+tings” at the top of the window.
+Clicking the On button below
+the “Junk Email Blocking” head-
+ing activates the spam ﬁlter.
+
+0 Go to “Spam Filter” to select
+the speciﬁc categories of junk e-
+mail that they want to be blocked
+by the ﬁlter. The categories are:
+
+sexually explicit, get rich quick,
+special offers and racially insensi-
+tive or hate—oriented topics.
+
+° Personalize their level
+of protection against spam by
+choosing one of ﬁve progressive
+settings ranging from lenient to
+aggressive within each category.
+More aggressive settings will
+catch more spam, but have a
+greater potential to quarantine
+legitimate e-mail as spam.
+
+“People are going to be a
+little bit nervous about using
+the aggressive setting right
+away, because they think they
+might miss legitimate mail,”
+Walton predicted. “But the thing
+I’m happy about is that you still
+have the chance to look at your
+messages. I think people will
+
+probably start in the ‘middle of
+
+the road’ and gradually get more
+aggressive as they become more
+familiar with the service. But
+
+the settings can be changed at -
+
+any time.”
+
+The key is to check the mes-
+sage center periodically for quar-
+antined messages, she said.
+
+Users can further customize
+their spam ﬁltering preferences
+by using the “Approved Send-
+ers” list and “Blocked Senders”
+list functions, Walton said. Users
+designate individual e-mail
+addresses for their approved
+senders list by manually enter-
+ing the addresses. Mail sent
+from these addresses automati-
+cally bypasses the spam ﬁlter
+and is delivered to the receiver’s
+inbox. (Messages with suspected
+viruses sent from approved send-
+ers still will be ﬂagged by the virus
+ﬁlter.)
+
+If a user has given a pitt.edu
+account address to a store because
+he or she wants to hear about spe-
+
+cial offers, for example, adding ,
+
+the store’s e-mail address to the
+approved senders list keeps that
+address from being trapped as
+spam.
+
+Similarly, the blocked send-
+ers list allows users to designate
+e-mail addresses manually that
+always will be quarantined by
+the ﬁlter, regardless of content.
+(This function has its limitations
+
+because spammers often change
+their e-mail addresses to avoid
+being trapped by such lists.)
+
+These lists are accessed from
+the message center’s “Junk Email
+Settings” link.
+
+Walton said that Pitt signed a I
+
+three-year contract with Postini,
+which boasts over 3,300 compa-
+nies as clients. “Postini claims to
+trap 95 percent of spam,” she said.
+“Using the aggressive setting, I
+think it’s more like 99 percent or
+higher for spam. For viruses, they
+also say they trap 95 percent. So,
+people still need to use anti-viral
+software, as a precaution, to be
+safe.”
+
+Walton declined to _say how
+much Pitt is paying Postini for
+the spam and virus e-mail ﬁltering
+service, citing a contract privacy
+agreement.
+
+, “We deliver about 13 million
+e—mails a month, and we do start
+to see things slow downas mail
+increases,” she said. “I don’t want
+to- have to keep investing money
+to expand our capacity just so we
+can deliver spam faster. So that’s
+one of the advantages of using
+Postini, because that spam is not
+being stored on our system. It’s
+really being stored by them.”
+
+  Now available to ’tudents,Faculty, and Staff.
+
+Welcome to a brand new way to use the
+Web at the University of Pittsburgh.
+
+Webmail
+
+News Headlines
+Pitt People Search
+Sports Headlines
+
+Weather
+
+Google Search
+
+AOL Instant Messenger
+Amazon Search
+Pitt News Police Blotter
+
+Ebay Search
+
+Pitt News Headlines
+
+W  wgzwumawwmmwztma
+Moumow M:
+
+v» sowv. . \ -v w» as in wy< ov.~\'<4.~>9 oe~',v-'-» own... u.—/~svt0-we
+
+«M
+
+.. i»..1¢x¢9ts&'mﬁ4zua*Jm(.§9s't'AV%!aa4at$28e¥’!z4(
+
++ Ioévswn my »:».~'«'-»' 9»: r.»': -4»? Ken: w 3,“ 5 ;¢:- »«,:_o.-/At;
+
+aswusu
+
+wstwhw
+
+' <-muaron» :w»n“-Sbuwxwcuavavxcnxgqa
+rag» at >,- w a mu «wk yxooﬁu am ‘N -/,.. 2'
+
+Choose from all of these and much more.
+
+l.ltii\*ei'sity of Pittsl)urglt
+("tmtputing Sun ices and S_\siL‘m.\ I):-\ clnpmcnl
+
+my.pitt.ed Ll
+
+Your portal to the University and beyond.
+
+John Close, chair of the Senate
+computer usage committee and a
+member of the Provost’s Coun-
+cil on Academic Computing, said
+
+those groups heartily endorsed
+
+the new e-mail ﬁltering service.
+“From everything we saw and
+heard about thisservice, -where
+users can customize their settings,
+where there is user notiﬁcation
+and where there is the two-week
+period to ‘ﬁnd [any legitimate]
+mail, we think this is a good
+solution to» the spam problem.
+
+And this ﬁts in with what I was ,
+
+saying in the recent University
+Times Senate Matters column,
+that individual users need to take
+
+more responsibility for their own _
+_ computers.” (See May 13 Um'ver— ,
+
+sity Times.) .
+
+Walton said that informa-
+tional brochures on the ﬁltering
+service will be distributed to all
+faculty and staff via campus mail
+in the near future. For more infor-
+mation on the service, Contact the
+Help Desk at 4-43 5 7.
+
+—-Peter Hart I
+
+IUNE 10,2004
+
+Committee focuses on pedestrian safety
+
+ne of the charms of an
+urban campus such as
+Pitt’s is the plethora of
+
+activities available within walking
+distance. One of the drawbacks
+is that walking around campus,
+amid poorly marked pedestrian
+crossings, unsafe road surfaces,
+hazardous intersections, counter
+trafﬁc—ﬂow bus lanes and some
+75,000 cars whizzing through
+Oakland on any given (lay, can
+be dangerous.
+
+Following two pedestrian
+fatalities last fall, a University
+Senate committee was galva-
+nized to focus on pedestrian,
+bicycle and trafﬁc safety on the
+Pittsburgh campus.
+
+The community relations
+committee (CRC) appointed a
+working group of Pitt faculty
+and staff along with representa-
+tives from community organiza-
+tions and the City of Pittsburgh
+to prepare recommendations on
+campus pedestrian ‘safety that
+Faculty Assembly and Senate
+Council could consider adopt-
+mg.
+The rnission of the working
+group is “to workwith University
+decision-makers and community
+partners to identify, advocate for
+and monitor the implementation
+of educational and enforcement
+efforts to insure that the Oakland
+campus is a pedestrian-friendly
+and safe environment, recog-
+nizing the rights and responsi-
+bilities of both pedestrians and
+drivers.”
+
+Wesley Rohrer, co-chair
+
+ Eit.t_,_,P_0liCe . Chief
+
+ ‘Delaney of the CRC work-
+ing group, presented initial
+ﬁndings and recommendations
+to the Assembly June 1 and the
+Senatejune 7, while maintaining
+that much more study needed to
+be done.
+
+“I want to stress that this is a
+preliminary report of an evolv-
+ing strategy,” Rohrer told the
+Assembly last week. “One, it
+doesn’t have the associated data
+and references that you might
+expect in a full report,” such as
+data on local accidents, trafﬁc
+tickets issued and pedestrian
+
+.3» H -.
+
+complaints. “That will come
+later, in a more comprehensive
+report by the end of the fall term,”
+he said.
+
+“This report is also prelimi-
+nary in that it tries to highlight
+some approaches that might be
+considered to be put in motion
+with regard to pedestrian and
+trafﬁc safety. Thirdly, although
+this is the work of a broad-based
+working group, We actually want
+to broaden that base and include
+more representatives from the
+community as well as other uni-
+versities in the area.”
+
+The committee will meet
+regularly, expand its member-
+ship, compile relevant data and
+attempt to present formal recom-
+mendations and an action plan to
+Assembly and Council by the end
+of the fall term, he added.
+
+Rohrer strongly recom-
+mended that the subcormnittee
+or an equivalent group maintain
+the focus on priorities, issues and
+approaches for addressing pedes-
+trian, bicycle and vehicular traffic
+safety concerns. “The idea is that
+we would continue to work with
+the campus police, the Univer-
+sity, the community and other
+stakeholders, and look more
+seriously at how to minimize
+pedestrian accidents and increase
+the awareness of pedestrians and
+drivers in the area. The bottom
+line is that our group or one
+like it will continue to provide
+the opportunity to fact—ﬁnd and
+keep the institution informed on
+this very important issue.”
+
+-sThe W°.r1$i.1.£;£I.9.9.B’§- 399.31
+
+0'“-‘lzii}‘fs”'<)“1i't'°a“ini1fi"iber"of otfliefvge
+eral recommendations, including
+building a data base of scholarly
+and media commentary relevant
+to‘ urban pedestrian safety;
+incorporating pedestrian and
+trafﬁc safety education into all
+student, staff and faculty ori-
+entation sessions; surveying the
+community to assess the level
+of safety awareness; contacting
+other urban institutions; improv-
+ing the carnpus’s infrastructure
+by restoring and maintaining
+pedestrian crosswalk markings
+and signage; adding traffic light
+
+Task force wants
+
+more Pitt employees
+
+to call Oakland home
+
+force has its way, more Pitt
+
+employees will be making
+Oakland their home as well as
+their place of work.
+
+Community relations com-
+mittee (CRC) leaders this month
+summarized the committee’s
+efforts over the last year —- and
+vowed to press on with such
+efforts — to promote housing
+opportunities forPittandUPMC
+employees in near-to-campus
+neighborhoods.
+
+According to Tracy Soska,
+outgoing chair of CRC, the
+committee’s focus on area
+housing, and particularly on
+exploring employer—assisted
+housing (EAH) options, grew
+out of meetings with community
+
+If a Senate committee’s task
+
+organizations with the common
+goal of revitalizing the greater
+Oakland area.
+
+Such plans and “re—visions”
+of Oakland and surrounding
+neighborhoods as proposed by
+a number of community groups
+invariably focus on the impor-
+tance of homeownership and
+housing development, Soska said
+at the June 1 Faculty Assembly
+and June 7 Senate Council
+meetings. . ‘
+
+The community relations
+committee has come “to better
+appreciate the importance
+of Oakland as more. than an
+educational, medical and’ com-
+mercial hub vital to the region’s
+economy and future,” the com-
+
+CONHNUED ON PAGE 7
+
+     
+
+       
+       
+      
+
+delay and walk-only features at
+particularly dangerous intersec-
+tions; enforcing traffic and jay-
+walking violations, and sharing
+resources among city, county,
+University and community
+organizations to increase public
+awareness.
+
+One of the byproducts of the
+group’s deliberations, Rohrer
+
+i
+
+pointed out, was a pedestrian
+safety poster display in the
+Graduate School of Public
+Health this spring, inspired by
+the World Health Organization’s
+2004 theme, “Road safety is no
+accident.”
+
+Rohrer also praised the work
+of the Staff Association Counsel’s
+safety and security committee in
+
+I
+
+s E mine to make 
+
+many areas of Oakland hazardous.
+
+documenting dangerous pedes-
+trian areas on or near campus.
+
+The CRC working group’s
+report described the subcom-
+mittee’s ﬁve main goals:
+
+° Identify key issues and
+problems, including high—risk
+intersections and crossings, to
+help prioritize safety efforts.
+
+° Identify available resources
+and partners including potential
+funding sources, in—kind gifts,
+volunteer services and products
+relevant to trafﬁc safety.
+
+° Develop a pedestrian safety
+strategy with recommendations,
+including approximating target
+dates and costs for actions.
+
+° Change the culture to
+increase the level of safety aware-
+ness on campus by integrating
+safety with established programs
+and processes such as student ori-
+entation, and by adding programs
+such as annual events focused on
+pedestrian safety.
+
+° Assess performance by
+establishing a mechanism to
+identify trends, accumulate data
+and monitor the effect of recom-
+mendations.
+
+—Peter Hart I
+
+RESIDENCE INN BY MARRIOTT
+
+PITTSBURGH / OAKLAND
+
+A11 of our suites provide the comforts
+of home with Marriott's passion for
+making every guest feel welcome.
+
+-174 Spacious Suites (with full kitchens)
+—T’n..ree Meeting Rooms lover 2.000 so it)
+—Hot Breakfast Daily (including scrambled eggs and
+
+Beigian waiﬂes)
+
+—Evening Social Hour (Mon.-Thurs.)
+
+—Daiiy Newspaper
+
+—Shettie Van Service (within 3-mite radius)
+
+-Secure indoor Garage
+
+-24-Hour Message Center / Voice Mail
+-Indoor Pool and Whirlpool
+
+-Fitness Center
+
+—Catiie TV with Premium Channels
+
+-Pets Accepted
+
+-Laundry Facilities on Each Floor
+-Free High—Speed lnternet
+
+ROOM TO RELAX, ROOM TO WORK, ROOM TO BREATHE.
+
+ASK ABOUT OUR UNIVERSITY OF PITTSBURGH RATES!
+
+3896 Bigelow Boulevard - Oakland - Pittsburgh, PA 15213 - (412) 621-2200 - wwwresidenceinn.com/pitro
+
+PARTKI-NGPERMIT RITINSTATENIENT
+If youare going on a   you
+may have your parking permit reinstated when you
+return to the University. When you complete a parking
+
+permit reinstatement application, your permit will be E
+held for your current lot / garage until your return.
+
+You must return your permit to the Parking Office in 204
+Brackenridge Hall within the first three business da s
+of the month in order to stop charges for that month.
+
+ 
+   
+
+Paid advertisement
+
+ 
+
+UNIVERSITY TIMES
+
+lein aber fein (small
+
+but ﬁne) is how Clark
+
+uenzer describes Pitt’s
+
+Department of Germanic Lan-
+
+guages and Literatures, which
+he chairs.
+
+Muenzer’s colleagues in the
+Association of Departments of
+Foreign Languages (ADFL)
+agree with his assessment. Based
+on the results of an Andrew W.
+Mellon Foundation—funded
+survey of 2 ,63 1 foreign language
+departments nationwide, ADFL
+last fall selected Pitt’s German
+department as a model of good
+practice in the profession. It was
+one of only two foreign language
+units at Ph.D.-grantingU.S. uni-
+versities to be so recognized.
+
+The Pitt department’s seven
+full-time faculty members (six
+tenured/tenure track profes-
+sors, including Muenzer, and
+one non-tenure track lecturer)
+were delighted by the national
+recognition —— although they
+showed no false modesty
+about their success in boosting
+enrolhnents and establishing a
+multifaceted, student-friendly
+program since the mid—l990s
+under less—than—favorable con-
+ditions: tight budgets, person-
+nel reductions (the department
+employed eight professors, all
+tenured or in the tenure pipe-
+line, when Muenzer began work
+here in 1979), declining German
+language enrollments nationally,
+and the current foreign language
+requirement in Pitt’s School of
+Arts and Sciences, which is mini-
+mal compared with those at most
+peer universities. (Students who
+come to Pitt having completed
+three years of one language in
+
+high .s9h99L.9!iEl1  gra£1§§..,at¢;...
+
+exempt from further I
+study.)
+
+Also, German — unlike, say,
+Slavic languages or Spanish —
+these days attracts few U.S.-bom
+“heritage learners” who want to
+study it because the language is
+spoken at home or by living family
+members.
+
+Nonetheless, the number of
+Pitt students pursuing a B.A. in
+German has roughly doubled
+from 18 majors in 1995 to 30-40
+in recent years (enrollments vary
+from one term to another). For
+students who want to continue
+studying the language beyond
+German 4, but don’t want
+to take dozens of additional
+credits in German studies, the
+department in 1997-98 created
+an 18-credit German language
+certiﬁcate; some 20-25 students
+are pursuing certiﬁcates in any
+given term.
+
+“We’re a small department,”
+Muenzer points out, “but we
+serve a very wide range of clien-
+tele, from doctoral students to
+beginning language students.”
+In his chairperson’s message
+on the department web site,
+Muenzer writes, invitingly: “If
+you want to study German ﬁlm,
+or ﬁn-de-sierle Vienna, or ethnic
+diversity in today’s German-
+speaking countries, we probably
+have something to offer you. If
+
+children’s literature is of inter-
+est to you, or Goethe or Kafka
+or German—Jewish relations, or
+the history of German cultural
+politics in VV1lhemine Germany,
+we have courses and curricular
+options on which to build a pro-
+gram of study.”
+
+Unlike many Ph.D.—grant-
+ing foreign language depart-
+ments that-assign grad students
+
+anguage
+
+National group calls
+
+.- am» 4»-
+
+. 3,... .. .. iv, .
+
+Pitt’s Germa   dep.
+
+and part-time faculty to actually
+teach languages (allowing senior
+faculty to focus on their research
+interests), Pitt’s German depart-
+ment involves its whole faculty in
+language instruction.
+“Currently, ﬁve of our six
+tenure lines are held by faculty
+members pursuing research in lit-
+erary criticism, ﬁlm and cultural
+studies,” Pitt German professor
+Sabine von Dirke noted in an
+article proﬁling the department
+in the fall 2003 ADFL Bulletin.
+
+»”.Q.’3§.- @a.1..1.r.9.sl. faculty. I9§.1.TI..1l.>.§=..!?..
+
+~’1Q:: 4?!
+
+and a ecturer concentrate on lan-
+guage pedagogy. Nevertheless, all
+faculty members from assistant to
+full professor regularly teach in
+the language program.”
+
+To encourage that, the depart-
+ment seeks to align language
+instruction with faculty research
+interests. Von Dirke cited the
+re-design of the depart1nent’s
+second-year sequence during
+the 1995-96 academicyear, which
+took advantage of the faculty’s
+strengths in such areas as ﬁlm
+studies and multi-culturalism in
+contemporary Germany. .
+
+“The goal was to bring"
+
+authentic cultural materials
+into the second-year language
+classroom that would reﬂect
+the increasingly multi-cultural
+character of Germany and help
+students understand the histori-
+cal forces that shaped the nation,”
+von Dirke wrote. “At the same
+time, the second-year language
+sequence still needed to serve as
+a review of the basic structures
+of German grammar learned in
+the ﬁrst year.
+
+“Instead of using a second-
+year language textbook, our
+students now read an unedited,
+illustrated children’s book,
+‘Neben mir ist noch Platz,’ which
+
+teaches about Germany’s difﬁcult
+transformation into a multi-cul-
+tural society by looking at the
+friendship between Stephanie,
+a German elementary school
+
+‘girl, and Aischa, whose family
+
+ﬂed the civil war in Lebanon.
+In the next textbook, ‘Stimmen
+eines Jahrhunderts,’ students
+explore the topics of childhood
+and social class, particularly with
+regard to gender and social class,
+by working with texts by Ernst
+Toiler and Klaus Mann, with
+
+..draWing§.121z.léa~.1;1.1.c..T.$.<2.1.L‘z.2.?.i.t.z»and
+
+.4‘. ~l»g~§».g-«rt» /1..
+
+George Grosz; theyalso ﬁewm
+clips by Fritz Lang, F.VV. Mumau
+and Werner Herzog.”
+
+To learn specialized vocabu-
+
+lary such as banking terms, Pitt
+
+A second-year German students
+
+study among other things a letter
+by composer Gustav Mahler,
+who was inept at handling his
+money.
+
+Undergraduates and teachers
+alike enjoyworking with autl1en—
+tic materials so early in the lan-
+guage curriculum, according. -to
+
+/ von Dirke. -
+
+She also (noted that each
+summer, amaverage of 5-6’ Pitt
+German students participate in
+a 12-credit exchange program
+at the University of Augsburg in
+southern Germany. To qualify,
+the Pitt students must pass a
+rigorous test of their German
+ﬂuency because the program is
+conducted in that language and
+does not cater to Americans:
+U.S. students attend classes at
+Augsburg with native German
+undergraduates and must write
+papers in German. One of the
+least expensive study-abroad pro-
+grams available to Pitt students,
+it costs about $4,000 including
+ﬂight, room and board, and
+spending money.
+
+“There are many other,
+excellent study-abroad programs
+available to our students, but the
+
+Augsburg program is the one that.
+
+our department developed,”
+Muenzer says. V
+D
+
+John B. Lyon, a recently hired
+assistant professor in the depart-
+ment, studied as an undergradu-
+ate at a small liberal arts college
+inMinnesota and did his graduate
+work at Princeton. Pitt’s German
+department features elements of
+
+..,.l29.§l1....:._ hekga I
+
+“By necessity, some 0 our
+introductory courses have large
+class sizes. But beyond that, I’ve
+found that this department is
+characterized by the small class
+sizes and individual attention to
+students that you would typically
+ﬁnd at a small liberal arts school.
+I ﬁnd that very striking at a uni-
+versity the size of Pitt, with its
+state-related status,” says Lyon.
+
+The department also offers a
+varietyofco—curricular activities,
+often in cooperation with Pitt’s
+student-run German Language
+Club, that -give students‘oppor—
+tunities to use their German
+skills outside the classroom.
+These include a career informa-
+
+.tion panel with business profes-
+sionals who majored in a foreign
+language, an annual Kristallnacht
+commemoration in cooperation
+with Pitt’sJewish studies program
+and an armual German essay con-
+test. (Von Dirke noted: “Informal
+polls among our students indicate
+that students Whose achievement
+in German was recognized in the
+essay contest were highly likely
+to continue with their language
+studies and even pursue the cer-
+tiﬁcate or major.”) \
+
+Lisa Haegele, who graduated
+in April with a double major in
+
+ 
+
+German and French, attended the
+annual ceremony during which
+the German department honors
+its essay contest winners. “The
+whole atmosphere there was like
+a little family. Everyone knows
+each other well,” she says.
+
+Before coming to Pitt, Hae-
+gele had taken two years of high
+school German but learned only
+the present tense and had a very
+limited German vocabulary. “I
+even went to a few professors in
+the German department when I
+was a freshman here, saying ‘I’m
+really weak in the language and
+I’m scared.’ But theywere allvery
+encouraging and supportive.”
+
+Four years later, Haegele is
+planning to begin her M.A. stud-
+ies in the German department
+next fall. Ultimately, she plans
+to go on for a Ph.D. in German
+(at another university, on the
+advice of Pitt Gennan faculty
+who urged her to broaden her
+educational background) and
+become a professor.
+
+“I had — not expected that I
+would be doing this at all,” she
+says, witl1 a laugh. “I was actually
+leaning towards French. But ulti-
+mately, I became more proﬁcient
+in German. I learned about the
+culture much more.
+
+“The French department is
+great, but in the German depart-
+ment there is a particular family
+environment and I feel very com-
+fortable there. I feel like I can
+contribute a lot towards it and still
+be happy with my work.”
+
+According to Justin Leiby,
+a Pitt senior who is pursuing
+degrees in German and busi-
+ness, the commitment to teaching
+and mentoring “is much higher
+
+
+
+it is among many other Pitt
+departments whose courses I’ve
+taken. Every faculty member in
+the department seems to be an
+educator ﬁrst and a researcher or
+
+academic trying to further his or
+
+I her career second. I have yet to
+
+ﬁnd a single faculty member
+in the department who doesn’t
+practically beg you to visit them
+in their ofﬁce.”
+
+At the same time, department
+faculty keep in mind that nearly
+all of the undergrads they teach
+are headed for careersinbusiness,
+law, medicine — something other
+than German studies. “Only
+a minute percentage of our
+undergraduate majors will go
+on to get advanced degrees in
+German literature and culture,”
+Muenzer observes. “We avoid
+the mistake, common among
+language departments, of seeing
+them as miniature German pro-
+fessors.”
+
+Because of its small size, Pitt’s
+German department chose to
+focus on what it calls modern
+Germany and German culture
+—— from the 18th century to
+the present. The curriculum,
+especially in advanced language
+courses, emphasizes the 20th
+and 21st centuries and contem-
+porary, multi-ethnic Germany,
+a perspective also provided to
+students by the department’s
+seven or eight (the number varies
+from term to term) German- and
+Eastern European-bom teaching
+assistants and fellows.
+
+Muenzer says: “People who
+have an oom-pa-pa image of Ger-
+many wouldn’t know Where they
+were if they got on a subway in
+Munich today, which would likely
+be full of Vietnamese and Turks
+
+CONTINUED ON PAGE 9
+
+JUNE 10,2004
+
+   
+
+  Task force
+
+CONTINUED FROM PAGE 5
+
+mittee report presented by Soska
+and chair—elect Linda Hartman
+stated. “ [The committee] was
+also impressed with Oakland
+
+  
+
+- ..-a-sand-snearbgpfneighborhoods..as—..-
+
+places to live both connected to
+our institutions and to the larger
+region  especially as places for
+our University and UPMC
+employees to reside.”
+
+The report ﬁnther.stated that,
+“The CRC’s task group on hous-
+ing is approaching this issue as
+a limited partnership to support
+[Oakland] revitalization efforts
+in ways that might also beneﬁt
+our University system and its
+employees,” to wit:
+
+' Benchmarking other uni-
+versities and institutions that
+offer employer-assisted housing
+(EAH) programs, such as the
+University of Louisville, the
+University of Pennsylvania and
+Howard University;
+
+0 Establishing on—line links
+between the Pitt home web
+page and Oakland community
+web sites, such as the Oakland
+Planning and Development
+Corp.’s “Only in Oakland”
+(www.onlyinoakland.org)
+and “Virtual Oakland”
+(www.virtualoaldand.org) sites;
+
+0 Promoting homeownership
+by educating University and
+UPMC employees on housing
+opportunities and community
+development resources offered
+through community partners
+such as Fannie Mae Corp., the
+City of Pittsburgh and local lend-
+ing institutions.
+
+° Conducting a web-based
+survey of Pitt employees on
+potential homeowner interest
+in select near-campus neigh-
+borhoods of- central Oakland,
+South Oakland, West Oakland
+and Hazelwood.
+
+Hartman reported to Faculty
+Assemblyonthesurvey’sﬁndings,
+whichincludedthatconvenience
+
+to job was the No. 1 reason
+respondents gave for choosing a
+particularneighborhoodinwhich
+to purchase a home, followed by
+convenience to transportation.
+
+On the negative side, Hart- A
+
+man reported, respondents listed
+neighborhood safety, appearance
+and lack of cleanliness as the top
+reasons given by those not wish-
+ing to live in near-to-campus
+neighborhoods and by those
+respondents who are not sure
+whether they would consider
+those neighborhoods for home-
+buymg- , ‘
+Affordability ofhousing, qual-
+
+wants more employees to call Oakland home
+
+Johnstown breaks
+ground for dorm
+
+Pitt's Johnstown campus broke ground June 2 for a new stu-
+dent residence hall, slated to be ready for occupancy in fall
+
+2005.
+
+The 35,200 sq. ft. facility will include 24 apartments with 109
+beds. Each apartment will have two full bathrooms. a living
+room and a kitchenette. The three-story residence hall will
+include a central common space for television lounge, lobby,
+
+laundry and conference rooms.
+
+Pictured at the ground-breaking ceremony are from left: Park
+Rankin, University architect and senior manager of archi-
+
+tecture; Matt Mazonkey. Johnstown Student senate presi-
+dent: Jerry W. Samples. vice president, Academic and Stu-
+dent Affairs at UP]: James V. Maher, provost and senior vice
+chancellor; Albert L. Etheridge. president. Pitt-Johnstown: E.
+Jeanne Gleason, chair, UPI Advisory Board and Pitt trustee;
+Robert Murray, principal, Renaissance 3 Architects; Jake Stif-
+ﬂer. director of UPJ Housing and Residence Life, and Patrick
+Kelly. director of business development, TEDCO General Con-
+
+tractors.
+
+ 
+
+ity of housing and lack of knowl-
+edge about neighborhoods were
+the top three problems respon-
+dents encountered upon ﬁrst
+
+ movingto Pittsburgh, according
+
+to the survey.
+
+More than half the survey’s .
+
+39 respondents said they were
+not familiar with employer-
+assisted housing programs,
+Hartman said, which can pro-
+vide mortgage money and other
+employer-assisted services in
+support of affordable housing.
+Depending on what parties agree
+to, EAH services can include
+home—buyer workshops; help
+
+in locating affordable housing;
+ﬁnancial and credit counseling;
+closing costs assistance; down
+payment assistance; matching
+savings; “rent to buy” options,
+and loan guarantees.
+
+Hartman acknowledged that
+the survey response was disap-
+pointing, a result of limited
+promotion.
+
+Soska told the University
+Times that the survey was
+designed as a marketing tool
+rather than a scientiﬁc study.
+“ [EAH programs] ﬁtin with.both
+the community’s and University’s
+short- and long-term housing
+
+strategy, increasing the area’s
+stability and lessening problems
+of absentee landlords and hous-
+ing code violations, maintenance,
+safety and other issues.”
+
+The community relations
+committee is not yet pushing
+for EAH programs to become
+an employee benefit, Soska
+said. Rather, the committee
+will continue gathering data
+on housing opportunities and
+report to Faculty Assembly and
+Senate Council, which will be
+responsible for making recom-
+mendations, he said. a
+——Peter Hart I
+
+Semester at Sea launching new ship  summer
+
+his summer’s Semester at
+, Seavoyagewill be the ﬁrst
+aboard the Explorer.
+
+The ship was launched in 2002
+
+as the Olympia Explorer by Royal
+
+Olympic Cruises, which went out
+
+of business in March. The ship
+
+will replace the S.S. Universe
+
+Explorer, SAS’s primary “ﬂoat-
+ing campus” since 1996.
+
+The Explorer is bigger, faster,
+
+newer and better-equipped than
+
+the Universe Explorer, which ‘
+
+went into service in 195 3 as the
+last American—built passenger
+steamship. The Explorer can
+
+house up to 685 students, 40 more
+
+than the Universe Explorer.
+
+At 24,300 tons and 590 feet
+in length, the new ship has about
+one-third more space for class-
+rooms, labs, the library and other
+campus facilities than the Uni-
+verse Explorer. Built by Blohm &
+Voss in Germany, the Explorer is
+billed as the fastest passenger ship
+
+in the world, with a peak cruising
+speed of 30 knots.
+
+“The new ship operates with
+good fuel efficiency at 22-23
+knots, compared with the Uni-
+verse Explorer’s fuel-efﬁcient
+cruising speed of 16-17 knots,”
+said Julian Asenjo, associate
+director for enrolhnent man-
+agement of the Institute for
+Shipboard Education, which
+administers SAS out of ofﬁces in
+the William Pitt Union. Accord-
+
+ing to Asenjo, greater speed will
+enable SAS to reach a geographi-
+cally wider range of ports during
+a single voyage. -
+
+“The fact that this ship is only
+two years old is another great
+advantage,” he added. “Traveling
+26,000 miles at a pop [during an
+around-the-world voyage] really
+takes its toll on.an older ship.”
+
+SAS has been academically
+sponsored by Pitt since 1981..
+—Bruce Steele I
+
+ 
+
+ 
+
+  UNIVERSITY TIMES
+
+RESEARCH NOTES
+
+Studies may
+enhance
+understanding
+of sports
+injuries,
+performance
+
+Studies conducted at Pitt’s
+Neuromuscular Research Lab-
+oratory (NMRL) may provide
+better understanding of the
+prevention and treatment of
+certain sports—related injuries
+and athletic performance.
+
+Pitt researchers presented
+ﬁndings of several studies last
+week at the American College
+of Sports Medicine 51st annual
+meeting in Indianapolis.
+
+The following are summaries
+of three NMRL presentations.
+
+Throwing athletes’ shoulders
+differ from non-throwers’
+
+Pitt research showing that
+throwing athletes have certain
+differences in shoulder blade
+position and orientation com-
+pared to non-throwing athletes
+may help doctors better under-
+stand and manage shoulder inju-
+ries in throwing athletes.
+
+VVhile examining injuries
+associated with the throwing
+motion in throwing athletes,
+athletic trainers and doctors rou-
+tinely evaluate the position, ori-
+entation and three-dimensional
+movement of the shoulder blade,
+or scapula. The scapula acts as the
+stable base of support between the
+arm and trunkwhile still allowing
+for the high degree of movement
+needed from the upper extrem-
+ity during the throwing motion.
+However, minimal research has
+been done to quantify scapular
+position and orientation in
+throwing athletes compared to
+non-throwing athletes.
+
+A study at Pitt’s NMRL has
+shown that experienced throwing
+athletes do indeed have certain
+scapular position and orienta-
+tion differences compared to
+non—throwers, suggesting that
+throwers develop chronic adap-
+tation for more efﬁcient perfor-
+mance of the throwing motion.
+
+The ﬁndings may provide
+clinicians with a better under-
+standing of types of adaptations
+that may be observed in normal,
+healthy throwing athletes and
+thus potentially lead to more
+effective injury prevention and
+treatment.
+
+A two—year grant from NFL
+Charities provided support for
+the study, which enrolled 21
+healthy, uninjured throwing
+male athletes to compare with
+a control group of 21 healthy,
+uninjured male non-throwers.
+
+All study subjects performed spe-
+ciﬁc related motion tasks while
+sophisticated biomechanical
+and neuromuscular assessment
+tools monitored certain scapu-
+lar positioning, orientation and
+movement during the assigned
+
+tasks.
+
+Stronger hip muscles =
+better golf
+
+Golfers with stronger hip
+muscles reported having better
+golf performances compared to
+golfers who showed weaker hip
+muscles in an NMRL study.
+
+To determine if there is any
+difference in hip strength among
+golfers with different proﬁciency
+levels, the relationship between
+hip strength and golf handicap,
+and between hip strength and
+self—reported driving distance,
+researchers divided 82 golfers
+into three groups based on their
+proﬁciency levels . according to
+self—reported driving distance
+and handicap. Using laboratory
+neuromuscular strength assess-
+ment tools, researchers studied
+each participant’s isometric hip
+abduction and adduction strength
+in side-lying with the hip joint in
+neutral position for both legs.
+
+Left hip abduction strength
+was signiﬁcantly higher in the
+better golfers’ groups; in the
+best golfers’ group, all hip move-
+ments tended to be stronger. The
+results of this study demonstrate
+the importance of hip musc11la—
+ture for stability of the tr11nk and
+the balancing forces transferred
+between lower body and upper
+body extremities during the golf
+swing. This. may be related :.to
+overall golf performance.
+
+Unplanned reactive
+jumps should be included
+in ACL research
+
+Injuries to the ACL (anterior
+cruciate ligament), the main sta-
+bilizing ligament in the knee, are
+common among athletes, and up
+to eight times more common in
+female athletes. Research into
+the risk factors of non—contact
+ACL injury prevention often
+calls for study participants to
+perform planned vertical stop-
+jump tasks.
+
+However, NMRL investiga-
+tors say that ACL injury preven-
+tion research protocols should
+include unplanned reactive
+jumping tasks to better simulate
+actual athletic competition.
+
+In the Pitt study, 26 male
+and female basketball players
+performed both pre-planned
+stop-jump tasks and unplarmed
+stop-jump tasks upon reaction
+
+University of Pittsburgh
+
+to sudden visual cues during the
+jump, which represents more
+actual athletic competition.
+During the reactionary jumps,
+the players demonstrated a
+decreased knee ﬂexion angle
+with a greater deceleration
+component compared to when
+they performed pre-planned
+stop-jump tasks.
+
+The ﬁndings suggest that
+reactive jumping tasks should
+be included when researchers
+are trying to determine the
+at—risk movement patterns for
+non-contact ACL injuries.
+
+A grant from the Jewish
+Healthcare Foundation provided
+support for the study.
+
+To learn more about these and
+other research projects at Pitt’s
+NMRL, access www.pitt.edu/
+-neurolab/.
+
+ awards
+ostdoctoral
+el Iowship
+
+The American HeartAssocia-
+tion has awarded Wendell Meira
+a postdoctoral fellowship for the
+period of July 1, 2004, through
+June 30, 2006. ‘
+
+Meira is a fellow in the labo-
+ratory of Karen A. Norris in the
+Department oflmmunology. His
+project title is “Genetic Immuni-
+zations Against Chagas’ Disease.”
+The award totals $74,000.
+
+Proteins hond
+together to '
+protect DI\IA
+Proteins that make up the
+hollow capsid (proteinaceous
+covering) of 'bactéfib'ﬁha'ge
+HK9 protect the virus’s DNA
+from harm by quickly mobiliz-
+ing to form links that securely
+bind the capsid proteins together
+as DNA is inserted.
+Researchers at Pitt and The
+Scripps Research Institute are
+examining this activity of HK97,
+a virus that infects bacteria.
+HK97 has properties similar to
+some animal viruses, including
+herpesviruses. The researchers’
+ﬁndings were reported in the]une
+4 issue of Molecular Cell.
+Robert Duda and Roger
+Hendrix, members of Pitt’s
+Bacteriophage Institute and
+assistant professor and professor,
+respectively, in the University’s
+biological sciences department,
+are studying how viruses are
+assembled in collaboration
+with researchers at The Scripps
+Research Institute in La Jolla,
+Calif.
+Previous research has shown
+that HK97 — ﬁrst isolated from
+
+The UPMC Balance Disorders Laboratory is seeking men
+
+and non—pregnant women between the ages of 21 and 45 to
+participate in a research study studying the effects of migraine
+headache medication on balance tests.
+
+For more details, leave your name and telephone number for Lindsay
+with the Migraine Physiology Study at (412) 647-8085.
+
+pig dung by a rice geneticist
+in Hong Kong‘— has unique
+properties. Typically, as bacte-
+riophages mature, the DNA-
+containing capsid is strengthened
+by many weak contacts between
+capsid proteins or by extra pro-
+teins that act as glue.
+
+In HK97, however, the mature
+capsid is stable because the pro-
+teins form chemical bonds, or
+cross-links, with each other as
+the capsid expands. HK97 was
+the ﬁrst bacteriophage discov-
+ered to form these stabilizing
+cross-links.
+
+Researchers now know that
+HK97 begins to form cross-
+links early in the maturation
+process, at the same time that
+the capsid expands in size and
+DNA is pumped inside. It was
+previously thought that the
+cross-links were the last step in
+the process. This research may
+help elucidate how and why pro-
+teins change their shape, interact
+with other proteins, and assemble
+
+  
+ 
+
+1; An electron microscopetilnage o-I‘-.thie:HK91 ‘a...
+
+themselves.
+
+“Once we understandindetail
+how viruses get assembled from
+their parts, we can start to think
+about how we might use that
+knowledge to sabotage the life
+cycles,” said Duda.
+
+Researchers also are inter-
+ested in a packaging signal that
+directs a maturation enzyme,
+called a protease, to its site of
+action inside the capsid during
+its assemblylfresearchers deter-
+mine the mechanism of the pack-
+aging signal, Duda speculates,
+then it possibly could be used to
+entrap useful biomolecules into
+nanoscale protein spheres.
+
+HK97 bacteriophage is sirni—
+lar to the bacteriophage lambda,
+one of the most well-studied
+bacteriophages. They both have
+the characteristic long tail with a
+balloon-like capsid, which stores
+the DNA that is injected into the
+host bacteria. The capsid serves
+to protect the DNA during trans-
+port from one host to another.
+
+virus that infects "bacteria. Pitt scientists are examining the
+activity of HK97, which has properties similar to some animal
+
+viruses.
+
+UPCI , _
+researchers
+resent
+indings .
+
+Researchers from the Uni-
+versity of Pittsburgh Cancer
+Institute presented ﬁndings from
+several studies at the armual meet-
+ing of the American Society of
+Clinical Oncology, June 5-8 in
+New Orleans.
+
+Highlights included the fol-
+
+lowing:
+
+Vaccine elicits immune
+response in metastatic
+melanoma patients
+
+Results from the largest multi-
+site study to date evaluating a pep-
+tide-derived therapeutic vaccine
+for melanoma show promising
+evidence that researchers can
+activate a patient’s own immune
+system to ﬁght advanced cases of
+the deadly skin cancer.
+
+“This is the ﬁrst time we
+have evaluated peptide-derived
+melanoma vaccine results from
+a multi-center cooperative
+group trial,” said John Kirk-
+wood, principal investigator of
+the study, professor of medicine
+at Pitt and director of UPCI’s
+Melanoma Center;
+
+“We have found evidence
+that the vaccine stimulates an
+immune response and that it is
+reasonable to evaluate the cor-
+relation between “disease course
+and immune response forpatients
+who receive the vaccine.”
+
+The phase II study, funded by
+the National Institutes of Health
+and the Schering Plough and
+
+Imrnunex Corporations, involved
+
+120 patients with metastatic V
+
+melanoma and researchers from
+30 research institutions across
+the country.
+
+. Malignant melanoma is one
+of the deadliest forms of skin
+cancer. This year there will be
+an estimated 54,200 new cases
+as well as 7,600 deaths from the
+disease.
+
+Pancreatic cancer vaccine
+found ‘to be safe, also stimulates
+immune activity
+
+Results from a phase I study to
+evaluate the toxicity of a potential
+therapeutic vaccine for pancreatic
+cancer demonstrate that patients
+can safely tolerate multiple doses
+of the vaccine.
+
+Preliminary evidence indi-
+cates that the vaccine, a synthetic
+version of a molecule expressed
+on pancreatic tumor cells, in
+combination with a patient’s own
+antigen—presenting cells (known
+as dendritic cells), boosts immune
+activity in pancreatic cancer
+patients.
+
+Only half of the delivered dose
+of a commonly used chemothera-
+peutic agent may be activated in
+cancer patients, according to a
+study that analyzed data from 3 1
+cancer patients given 30-minute
+infusions of gemcitabine.
+
+The study found that while
+approximately 50 percent of the
+gemcitabine dose was likely to be
+converted to active metabolites,
+the other 5 0 percent was likely to
+be inactivated and, as a result, pos-
+sibly did not contribute to a thera-
+peutic effect. I
+
+JUNE 10,2004
+
+Pitt German de
+
+CONTINUED FROM PAGE _6
+
+and other peoples in addition to
+ethnic Germans.” V
+
+But according to Leiby, he
+and other students who study
+
+‘German at Pitt would prefer
+
+an even greater emphasis on
+today’s Germany. “There is a
+heavy emphasis on‘ Goethe and
+German classicism of 200 ‘years
+ago, which is all well and good,”
+he says. “But I believe that if the
+department focused more on
+contemporary and 20th-century
+
+aspects of German culture, it
+would be more invigorating for
+the students while catering more
+to the faculty’s own specialties. I
+mean, someone like Sabine Von
+Dirke is renowned for her study of
+post—modernist topics. It’s almost
+foolish to not make greater use
+of her expertise.”
+
+Muenzer responds: “We
+absolutely strive to offer our
+students a balanced curriculum.
+That curriculum reﬂects the
+
+pt. recognized
+
+‘different research specialties of
+our tenured and tenure—stream
+faculty,” of whom only two
+specialize in pre—1900 German
+culture and literature.
+
+Department faculty take turns
+teachingupper-levelundergradu-
+ate seminars, so it’s likely a matter
+of chance if a student winds up
+taking more than a single seminar
+dealing with pre—1900 Germany,
+says Muenzer. 3
+
+“Not that I want to discount
+
+the importance of studying
+l8th- and 19th-century Germany
+either,” he adds. For example, any
+student who wants to understand
+ethnic diversity in ‘contempo-
+rary Germany would do well
+to study what the philosopher
+Johann Gottfried Von Herder
+(1744-1803) wrote about multi-
+culturalism, the department
+chair says. _
+C]
+
+“When you hire good
+people,” says Muenzer, “good
+things happen to them.” As a
+department chair, he has learned
+that the hard way. For example,
+
+one of the department’s star
+
+Graduate computer engineering program established
+
+Pitt has established a graduate
+computer engineering program
+
+that will offer Master of Science ‘
+
+and Ph.D. degrees. The unique
+program will be housed jointly
+in the School of Engineering’s
+
+Department 'of Electrical and‘
+
+Computer Engineering (ECE),
+formerly the Department of
+Electrical Engineering, and the
+School of Arts and Science’s
+
+Department of Computer Sci-
+ence (CS). Faculty from both
+departments have worked to
+develop a common program of
+study that encompasses all aspects
+of computer engineering, ‘span-
+ning hardware and software as
+well as theory and practice.
+Engineers Quarterly predicts
+that by 2 006 computer engineers
+will become the second largest of
+
+Project Bzmdle- Up Telethon
+
+Saturday, fune 26, 9 am-noon
+
+Thursday,  15', 6-9
+
+Pittsburgh Blues Festival
+
+  Volunteer Pool  
+412/624-7709 0 Fax:‘412/624-7707 0 stz@pitt.edu
+
+Saturday, june 19, 2:3 0-5 :30 pm or 5' :3 0—8:3 0 pm
+
+Volunteers will be staffing the auction broadcast live from the WTAE-
+TV studios, just off the Parkway East in Forest Hills. .
+Down on the Farm with the Food Bank '
+
+Volunteers are needed at the Greater Pittsburgh Community Food
+Bank’s farm, just 30 minutes from campus.
+South Side Summer Spectacular ,
+
+Assist a variety of local South Side community groups in showcasing
+their efforts during this annual event. ’
+
+.., .Eridd—y,,]uly...1.6,.«.Saturday, july 1 7.017 Sunday, july 1 8._
+
+I
+
+e engineering disciplines.
+
+Currently there are more than
+75,000 undergraduate students
+enrolled in computer engineering
+programs in the United States,
+constituting about 20 percent of
+the total engineering enrollment,
+a number that has tripled during
+the past decade. Pitt’s undergrad-
+uate degree program in computer
+» engineering is only six years old,
+but is the largest undergraduate
+degree program within" Pitt’s
+
+engineering school. V
+“Pitt is situated to offer an
+excellent program in computer
+engineering because we can draw
+on strengths of both the ECE
+and CS departments, which will
+give both a depth and a breadth
+
+of research opportunitiesfor our
+
+students,” said Steven Levitan,
+
+the John A. Jurenko Professor
+of Computer Engineering, who
+will co—chair the program with
+Donald Chiarulli, professor in
+
+computer science.
+“ ." "The“U;S".*~'Bureau: of Labor
+
+for 11,000 new Ph.D. computer
+engineers by the year 2010, a 40
+percent growth in the ﬁeld.
+According to the Pennsylvania
+Career Guide 2001-2002, Pitts-
+burgh ranks sixth among U.S.
+cities in the number of employ-
+ees in the computer industry. It
+is projected that the number of
+computer engineers in Pennsyl-
+vania will double between 2001
+and 2008. I
+
+ 
+
+Leverae your
+
+professors —— Sabine Hake, who
+built an international reputation
+in German ﬁlm and culturalstud—
+ies of the Weimar period — will
+be joining the faculty at the
+University of Texas at Austin in
+the fall. “In terms of resources
+and compensation packages, it’s
+tough to compete against the
+University of Texas,” Muenzer
+points out.
+
+“Another of our faculty mem-
+bers, Beverley Harris-Schenz, is
+a superb administrator, and as
+a result she was called away to
+serve as an associate provost
+and then as an associate dean of
+arts and sciences,” he adds. “All
+of that time, she counted as one
+of our full.-time, tenured faculty
+members.” ‘
+
+Arts and sciences Dean N.
+
+John Cooper does his best to
+allocate funds to hire part-time
+replacements for departed pro-
+fessors and those on sabbaticals
+
+and other leaves, Muenzer says,
+
+“but it’s always a struggle.
+
+“As a department we may be
+klein aherfein, but we don’t have
+a lot of wiggle room in terms of
+resources.” '
+
+——Bruce Steele I
+
+ 
+
+ 
+
+Be a part of this Greater Pittsburgh Community Food‘Bank fundraiser.
+Johnny VVinter, Jimmy Vaughn and the Blind Boys of Alabama will
+join a host of top blues artists at this Lawrenceville venue. After you
+register, you will be contacted regarding choice of job and shift. I
+
+Statistics includes doctoral degree
+computer researchers in its list
+of fastest growing occupations.
+The projection indicates a need
+
+Adult Student Information Sessions
+
+   
+
+Reserve your space today! ‘
+Sessions are held at the McCarl Center, 4th Floor,
+Cathedral of Learning. 0
+
+June , 26‘ Saturday .11 am. _'— 1 p.m.
+
+July 14 Wednesday 12 p.m. - 2 p.m.
+
+Transform your Future 6 P-m- - 3 DJ“
+31 Saturday 1 ‘ 11 a.m. 4 .1 p.m.
+
+Topics include: .
+2 '9 Choosing the right college and program
+
+- Navigating the admission process
+
+- Exploring career options ’
+
+- Transferring credits
+
+- Balancing work, school, and family
+
+- Finding ﬁnancial aid »
+
+- Practicing study habits for success’
+
+To reserve your space:
+' Visit: Www.s0luti0ns.pitt.edu
+E—mai1: learnn0w@pitt.edu
+Call: 412-624-6600
+
+( University of Pittsburgh
+LEARNING solutions
+
+College of General Studies
+
+  
+
+'-:~._ Wllfﬁlj“ ,«;-'
+
+iv
+
+ 
+
+’1-.n\ \l“
+
+  would Iiket if?
+
+ wa S
+
+I “ II
+Illllca  e.
+/4 -1
+/ .
+
+ss personal or work-related
+concerns, FSAP counselors are available.
+
+FACULTY and STAFF ASSISTANCE PROGRAM
+
+412-541-3321 or toll-free 866-647-3432
+
+Pittsburgh Then and
+Now pairs historic _
+photographs, many
+over a century old,
+with specially commis-
+sioned views of the
+same scenes as they
+exist today to show
+the evolution of
+Pittsburgh from its
+early years to the very
+different city it is now.
+
+Walter C. Kidney has
+lived in Pittsburgh for
+the last 25 years,
+working as a historian
+for the Pittsburgh
+History & Landmarks
+Foundation.
+
+PEOPLE OF THE "I'IIVIES
+
+Sunil Saxena, assistant
+professor in the Department of
+Chemistry, recently received the
+Faculty Early Career Develop-
+ment Award, the National Sci-
+ence Foundation’s (NSF) most
+prestigious honor for new faculty
+members. The award recognizes
+teacher—scho1ars most likely to
+
+become academic leaders in the A
+
+21st century.
+
+Saxena was recognized for
+developing technology called,
+pulsed electron spin resonance,
+a phenomenon that occurs when
+certain molecules are placed, in
+a static magnetic ﬁeld. VVhen
+exposed to speciﬁcally designed
+bursts of oscillating magnetic
+ﬁelds, the molecules emit signals
+
+that indicate how the molecules
+
+move. Using the technology,
+Saxena examines how biological
+molecules organize and rearrange
+over time.
+
+The NSF award will support
+
+development of new experimen-
+
+tal designs and procedures to .
+
+measure the atomic—level details
+of proteins by interpreting the
+
+Meet and speak ‘with 
+WALTER C. KIDNEY
+
+at his book signing  
+
+ittsburgh    
+
+Til‘-II“. EN"  I) 
+
+U 7ON  
+
+All are Welcome FREE of charge
+
+emitted signals. The information
+in the signals will help explain
+how such proteins as the glycine
+receptor change and interact in
+their native environment. The
+glycine receptor, which helps
+mediate signals to and from
+the brain, has been resistant "to
+conventional methods of study.
+Many diseases, including epilepsy
+and other seizure disorders, are
+associated with the glycine
+receptor. '
+
+“This research will lead to new
+technology that will enhance our
+ability to systematicallyimeasure
+and understand the fundamental
+
+‘ processes that control cellular
+
+functions,” said Saxena, who
+is collaborating with Michael
+Cascio, assistant professor in
+the Pitt medical school’s Depart-
+
+ment of Molecular Genetics and ,
+
+Biochemistry.
+
+Saxena earned a Ph.D. in
+chemistry at Cornell University
+and completed his postdoctoral
+training at California Institute of
+Technology and the University of
+California, Berkeley.
+
+THE BOOK CENTER - 4000 FIFTH AVENUE
+
+10
+
+ 
+
+Lynn M. Martire recently
+received the 2004 Springer Early
+Career Achievement Award in
+Research on Adult Develop-
+ment and Aging, from Division
+2 O of the American Psychological
+Association. V
+
+Martire is an assistant’ profes-
+sor of psychiatry and associate
+director of gerontology at the
+University Center for Social and
+Urban Research. Her research
+program focuses on the inter-
+face between late-life chronic
+illness and family relationships.
+This research has included pro-
+spective, observational studies
+as well as the development and
+evaluation of dyadic psychoso-
+cial interventions for ill older
+adults and their closest family
+member. ’
+
+Martire also is the recent
+recipient of .a Career Develop-
+ment Award from the National
+Institute ofMental Health, which
+extends her research on family
+care—giving to the issues faced
+by family members of clinically
+depressed older adults.
+
+Malorie   Kosh.-F¢dy.h.n
+has been named director of the
+
+-physical therapist assistant pro-
+
+gram at Pitt-Titusville.
+K. o s h t -.
+Fedyshin
+received her
+Bachelor — of
+Science and 
+Master of
+Physical Ther-
+apy degrees
+from Gannon
+University in
+
+ 
+
+"1992 and 1994. She earned her .
+
+doctorate in physical therapy
+from Chatham College in 2003.
+She is a licensed physical therapist
+in New York and Pennsylvania.
+
+Prior to coming to UPT,
+Kosht-Fedyshin served as the
+facility director for Keystone
+Rehabilitation Systems in Union
+City. _
+
+She is a member of the
+American Physical Therapy
+Association, a geriatric section
+member and a home health sec-
+tion member.
+
+She received an outstanding
+service certiﬁcate fromi Tender
+Loving Care/Staffbuilders in
+2000, the Award of Merit from
+the Mercyhurst PTA Program in
+1996 and the Leaders in Quality
+Care Award from Lake Erie Insti-
+tute of . Rehabilitation in . 1994.
+
+Richard E. Debski, assistant
+professor of orthopaedic surgery
+and bioengineering, has been
+selected to receive the 2004 YLC.
+Fung Young Investigator Award
+for “outstanding achievements in
+bioengineering research, in par-
+ticular for his work on the biome-
+chanics of shoulder joints.”
+
+The Y. C. Fung Young Inves-
+
+tigator Award was established in
+1985 by the Bioengineering Divi-
+sion of the American Society for
+Mechanical Engineers (ASME)
+as a divisional award. In 1998 it
+was elevated to an ASME award
+to recognize an individual for
+outstanding contributions to the
+ﬁeld of bioengineering through
+research. A -
+
+Debski also is co—director of
+the Shoulder Dynamics Labora-
+tory, Robotics Group, and ACL
+Biomechanics Laboratory at
+Pitt’s Musculoskeletal Research
+Center. I
+
+JUNE 10,2004
+
+CALENDAR
+
+Come stay with us and....
+
+“New Estimation Approaches
+in Survival Analysis With
+Aalen’s Additive Risk Model,”
+Brent McHenry;June 11, 325A
+Parran, 9 am
+GSPH/Behavioral _& Com-
+munity Health Sciences
+
+“A Methodologic Evaluation
+Study of ‘Caring Habit of the
+Month Program’: Cognitive,
+Affective & Behavioral Effects
+of an Anti-Violence Program
+in Nliddle School Children,”
+Judith Kaufmann; June 10,
+226 Parran, 10 am
+SHRS/Communication Sci-
+ence & Disorders
+
+“Effects of Ambient Odor on
+Picture Recall,” Amy Lustig;
+June 14, 4017 Forbes Tower,
+10 am
+
+A & S/Communication
+
+“A Rhetorical Analysis of the
+Spiritual Dissident Movement
+in Contemporary China,”
+Weiming Yao; June 15, 1128
+CL, 9 am
+Medicine/Neurobiology ~
+“Control of Telencephalic
+Interneuron Development,”
+Alexandra Gulacsi; June 16,
+1495 BST, 9 am
+Medicine/Biochemistry &
+Molecular Genetics
+
+“The hnRNP F & hn RNP H’
+Are Mammalian 3' mRNAPro—
+cessingFactorsActingThrough
+Guanine Rich Sequences,”
+Serkan Alkan; June 22, 1295
+BST, 3 pm
+GSPH/Biostatistics
+“Mapping Genes for Quan-
+titative Traits Using Selected
+Samples of Sibling Pairs,” Jin
+Szatkiewicz; June 23, A216
+Crabtree, 9:30 am
+Medicine/Immunology
+“Characterization & Immune
+Targeting of a Novel Tumor
+Antigen, EphA2,” Christopher
+Herrem; June 23, S100 BST,
+2 pm
+
+Theatre
+
+Johnstown Campus Produc-
+tion
+
+“Blithe Spirit,” directed by
+Rodney Eatman; June 10-12 8
+pm, StudioTheatre,Pasquen'lla,
+UPJ (tickets:800/846-2 787)
+
+Oﬂice ofthe Provost/CIDDE
+Instructional Development
+Inst. Enrollment
+
+Enroll by June 14 at
+www.pitt.edu/«-ciddeweb.
+Teaching Evaluation Sur-
+veys
+
+Request forms due to G39 CL
+June 11 for 4WK2, 12WK &
+term; July 2 for 6WK2; July 9
+for 4WK3.
+
+NIH Education & Outreach
+Seminar
+
+Register by June 30 at
+pittsburgh@masimax.com.
+Pitt Kennywood Day
+Tickets on sale at the WPU
+ticket office until July 30. (4-
+4236)
+
+Exhibits
+
+ULS Rare Book Collections
+Exhibit
+
+“The Romance of Perfume,”
+Richard Le Gallienne; “A New
+
+Maria McIntosh; “Biblia
+Hebraica,” Joseph Athias,
+Johannes Leusden & Everar-
+dus van der Hooght; “After
+the Fall,” Arthur Miller; “Irving
+Penn/John Szarkowski,” Irving
+Penn; “Their Heads Are Green
+& Their Hands Are Blue,” Paul
+Bowles; “All My Octobers: My
+Memories of Twelve World
+Series When the Yankees Ruled
+Baseball,” l\/Iickey Mantle &
+Mickey Herskowitz; “The Ship
+ofDeath & Other Poems,” D.H.
+Lawrence; throughJune 1 1, 2 72
+& 363 Hillman,Th 7:50 am—l0
+pm, F 7:50 am—6 pm
+ULS Rare Book Collections
+Exhibit
+“M. Annaei Lucani Cordub
+Pharsalia Sive Belli Civilis
+Cum Vita et Testimoniis,”
+Marcus Annaeus Lucanus;
+“White Nights: The Story of a
+Prisonerin.Russia,”Menachem
+Begin; “The Anatomical Exer-
+cises of Dr. William Harvey. De
+Motu Cordis 1628. De Circu-
+latione Sanguinis 1649,” edited
+by Geoffrey Keynes; “Las Siete
+Partidas Del Sabio Rey Don
+Alonso El IX, Glosada Por El
+Lic. Gregorio Lopez,” Gregorio
+Lopez & Oﬁcina de D.L.; “The
+Loved One: An Anglo—Ameri-
+can Tragedy,” Evelyn Waugh;
+“Singin’ & Swingin’ & Get-
+ting’ Merry Like Christmas,”
+Maya Angelou; “The Newgate
+Calendar, Comprising Inter-
+esting Memoirs of the Most
+Notorious Characters VVho
+Have Been Convicted of Out-
+
+rages on the Laws of England’ 
+Since the Commencement
+
+of the Eighteenth Century,”
+Andrew Knapp & William
+Baldwin; “Swarm’s Way: The
+Translation,” C.K. Moncrieff;
+
+‘ “Monmigne’s Essays,” Michel
+
+de Montaigne; “Pope’s Own
+Miscellany,” Alexander Pope;
+June 12-25, 272 8: 363 Hill-
+man, M-Th 7:50 am—10 pm, F
+7:50 am-6 pm, Sat; 10 arn-6pm,
+Sun. noon—9 pm
+
+Hillman Library Exhibit
+“Cedar Bird (CedarWaxwing)”;
+Audubon exhibit case, ground
+ﬂ. Hillman, through June 21,
+M—Th 7:50 am—l0 pm, F 7:50
+am-6 pm, Sat 10am-6pm, Sun.
+noon—9 pm (8-8191)
+ULS/Asian Studies  of
+Chinese Script Exhibit
+“Chinese Script: From Oracle
+Bones to Computer Bytes”;
+Hillman Library, through June
+27, M—Th, 7:50 am-10 pm, F
+7:5 0 am—6 pm, Sat. 10 am-6 pm,
+Sun. noon-9 pm (8—8l84)
+
+Event Deadﬁne
+
+The next issue of the University
+Times calendarwill be published
+June 24. Itwill contain events of
+June 24-July 8. Information for
+events during that period must
+be received by 5 pm June 17 at
+3 08 Belleﬁeld Hall. Information
+may be sent by fax to 4-45 79 or
+
+e—mail to utcal@pitt.edu.
+
+CONTINUED FROM PAGE 12
+'’'--°- Deter-ses ZX:.Z.:S§i:::f5;:£:.i“%;’..f;‘,“‘.3‘; RELAX AND RECUPERATE
+GSPH/Biostaﬁsﬁcs What Makes Home Happy,”
+
+Recovering from an illness or surgery can
+
+_ seem overwheiming. You may not want to
+be alone or to rely on family and friends,
+yet you need assistance.
+
+WE CAN HELP YOU
+THROUGH THIS
+DIFFICULT TIME!
+
+Call and ask how our Relax and
+Recuperate Program can help you,
+whether it is for a few days, or a few weeks.
+
+I INDEPENDENT LIVING
+
+I ASSISTED LIVING
+
+I MEMORY SUPPORT UNIT
+
+I RESPI'I'E CARE
+
+I REHABILITATION SERVICES
+
+  
+
+Pirtsfzargk '5 Premier Senwr Liiring Comnmr;s'r}‘
+
+   
+
+For more infonnation or to schedule a tour, please call (412) 621-4200. 
+
+3890 Bigelow Boulevard - Oakland - Pittsburgh, PA 1 5213 - www.schenleygardens.com
+
+the University community.
+
+ADVERTISE
+
+in the University Times.
+
+ca lNV|TAT|ON %
+
+University of Pittsburgh
+Faculty and Staff Retirees Reception
+Wednesday 23 June 2004
+William Pitt Union Ballroom
+2:00 - 4:00 pm
+
+With marked pride and pleasure we invite you to the Annual
+University of Pittsburgh Faculty and Staff Retiree Reception.
+
+Informative, insightful and impressive, the Chancellor's words
+await our listening.
+
+We warmly welcome you, your spouse or significant other and
+the spouses of deceased Faculty and Staff to join us for a pleasant
+afternoon of visits and tasty treats.
+
+The,Chancellor and Mrs. Nordenberg will be our special guests.
+
+We again thank the University for the generous and continuing
+support of this jolly gathering.
+
+Note carefully that the Reception is in the William Pitt Union. with
+underground parking provided in the garage of the Soldiers &
+Sailors Memorial.
+
+Ever you remain a cherished and an important part of the University
+of Pittsburgh. We look forward to being with you 23 June.
+
+For more information please contact
+The Ofﬁce of Special Events.
+(412) 624-7100
+
+11
+
+xi‘.
+
+ 
+
+CALENDAR
+
+i
+n
+
+]zme
+
+Thursday 10
+
+Immunology/UPCI Semi-
+nar
+
+“Chemokines & EffectorT Cell
+Trafﬁcking,” Andrew Luster,
+MA General Hospital; lecture
+rm. 5 Scaife, noon
+
+EOH Seminar
+
+“Molecular Mechanisms
+Mediating Calcium Control
+of Neurotransmitter Release,”
+Weiping Han, U of TX; conf.
+rm. 210 3343 Forbes Ave.,
+noon-1 pm
+
+Friday 11
+
+_ Katz MBA Info Session -
+And. 6 Scaife, 8 am (reserva-
+tions: 4-4542)
+
+FSDP Workshop
+
+“Payroll Processing at Pitt,”
+payroll staff; 342 Craig, 10
+am-3 pm (4-8046)
+International Services Turk-
+ish Cooking Demonstration
+Noon-1:30 pm (for location &
+to register: 4-7261)
+Molecular Pharmacology
+Graduate Student Seminar
+“CAR & PXR Bile—ology,”
+Hirdesh Uppal; 1395 BST,
+noon
+
+Monday 14
+
+Translational Neuroscience
+
+Seminar
+
+“Experience-Driven Synaptic
+
+Delivery of AMPA Receptors
+, in Vivo,” Takuya Takahashi;
+
+16th ﬂ. conf. rm. BST, noon
+
+Tiiesday 1?” A if  9 if if
+
+Donald A.B. Lindberg Bio-
+
+medical Informatics Lecture
+
+& Symposium
+
+“Informatics in Biomedical
+
+Science & Healthcare: Span-
+
+ning From the Molecular to
+
+the Clinical”; FFA aud., 8:30
+
+am (register 7-7156)
+
+Oﬂice of Research/NCURA
+
+Video Workshop
+
+“Project Management”; 211
+- Lawrence, 11:30 am-3:30 pm
+
+(4-7410)
+
+Intercultural Lunch
+
+Dining Rm. B VVPU, noon (also
+
+June 22) 1
+
+Neurobiology Seminar
+
+“Glial Cells Generate Neurons: _
+
+Cellular & Molecular Mecha-
+
+Events occurring:
+
+  
+
+The Audu? - In print "Cedar
+Bird [Cedar Waxwingl" is on
+display through June 21 in the
+Hillman Library ground floor
+exhibit case.
+
+nism orNeurogenesis,”Magda-
+lena Gotz; S120 BST, noon
+UPCI Seminar
+“Integrin-Linked Kinase
+Complexes in Cancer Biology
+& Therapy,” Cary Wu; Rm. B
+Cooper Conf. Ctr., Hillman
+Cancer Ctr., Shadyside, 3 pm
+
+Wednesday 16
+
+Orthopaedic Surgery Grand
+Rounds .
+Joanne Labriola & Vonda
+Wright; LHAS and. Monte-
+ﬁore, 7-8 am
+
+Oncology Grand Rounds
+“Thrombocytopenia in the
+ICU: Is Multiple Organ Fail-
+ure a Thrombotic Microangi-
+opathy?” Joseph Kiss; 2nd H.
+and. Herberrnan Conf. Ctr.,
+Shadyside, noon
+
+Pathology Seminar
+
+‘-‘Gene Expression Changes in
+Cardiac Hypertrophy,” Jorge
+
+  
+ 
+
+  
+
+Thursday 17
+
+Book Ctr. Book Signing
+
+“Pittsburgh: Then & NoW,”_
+Walter Kidney; Book Ctr.,»
+
+110011
+
+Renal Grand-Rounds
+
+“Cardiovascular Disease in.
+
+CKD,” Alfred Cheung; F1145
+Presby, noon
+
+Hillman Cancer Ctr. Semi-
+nar
+
+“A Reason to Hope: Advances '
+
+in the Management of Cancer
+Pain,” Cooper Conf. Rm., Hill-
+man Cancer Cnz, Shadyside,
+6:30-8 pm (412/623-3651)
+
+UNIVERSITY
+"I"IIVIES
+
+publication schedule
+
+Submit by
+
+)4:-'
+
+Friday 18
+
+Molecular Pharmacology
+Graduate Student Summer
+Seminar
+
+“Alpha-4 Subunit of the GABAA
+Receptor in Hyperexcitability
+Syndromes,” Dev Chandra;
+1395 BST, noon
+
+Saturday 19
+
+0 Summer 6-week-1 session
+ends; ﬁnal exams scheduled
+for last class meeting.
+
+Monday 21
+
+0 Summer 6-week-2 session
+registration period ends;
+classes begin.
+
+Oflice oftheProvost/CIDDE
+Instructional Development
+Inst.
+
+“Course Development Using
+Blackboard”; B23 Alunmi, 9
+am-4 pm (alsoJune 22-24;
+4-2896)
+
+Senate Communitykelations
+Committee Meeting
+
+2017C CL, 11:30 am-1 pm
+
+Wednesday 23
+
+0 Summer 6-week-1 ses-
+sion grade rosters, due in
+
+registrar’s oﬂice by noon.
+
+, 0 Summer 6-Week-2 add/drop
+
+period ends.
+
+0 Summer 4-week-2 ses-
+sion deadline for students to
+
+:-submitmonit2oredwiﬂadrawal.., ..
+
+forms to dean’s ofﬁce.
+
+Orthopaedic Surgery Grand
+
+Rounds
+
+Victor Piisk & Rachel Rhode;
+LHAS aud. Monteﬁore, 7-8
+am _ ‘
+TIAA-CREF One-on-One
+Counseling Session
+
+Beneﬁts ofﬁce, Craig, 8:30
+am-4:30 pm (register: 877/209-
+3136, alsoJune 24)
+Pathology Seminar
+
+“From Pathology to Transla-
+tional Applications: Prelimi-
+naryData on Pancreatic Cancer
+Detection 8: Recent Advances
+in Colon Cancer, Astocytoma
+& Lung Cancer Genomics due
+to Advances in Bioinformatics,”
+
+2 For publication
+
+Information rubmittedfbr the calendar sbould  tbe type of event, such as lecture or
+concert, and tbe program it speciﬁc title, sponsor; location and time. The name and pbone number
+
+of a contact person sbonld be included. I
+
+by FAX to: 412/624-4579, or by campus mail to: 308 Belleﬁeld Hall. We cannot guarantee
+
+publication of events received after tbe deadline.
+
+' should be sent by e-mail to: ut¢.'al@pitt.edu,
+
+James Lyons-Weiler, UPCI;
+1105 Scaife, noon
+
+Faculty 8: Staff Retirees
+Reception
+
+Ballrm. WPU, 2-4 pm (4-
+7100)
+
+Thursday 24
+GSPHA1umni SocietyMeet-
+
+mg
+109 Parran, 5:30-7 pm
+
+CONTINUED ON PAGE 11
+
+0 $8 for up to 15 words; $9 for 16-30
+words; $10 for 31-50 words.
+
+0 For University ads, submit an account
+number for transfer of ftmds.
+
+°Al1otherads shouldbeaocompaniedby
+
+to the University of Pittsburgh.
+
+0 Reserve space by submitting ad copy
+one week prior to publication. Copy and
+payment should be sent to University
+Tunes, 308 Belleﬁeld Hall, University of
+Pittsburgh, Pittsburgh 15260.
+
+0 For more information, call Barbara
+DelRaso, 412/624-4644.
+
+HOUSINGIRENT
+
+CENTRAL OAKLAND
+
+Beautiful, large, 6-BR house. Very close to
+campus! Laundry in basement. Front & back
+porches, nice backyard. 412/682-7622.
+GREENFIELD
+
+House for rent. Excellent condition. 3 BR, 1.5
+baths, equipped kitchen, W/D, garage, AC,
+credit check, no pets. $700/mo. (ZP) - $900/
+mo. (3P) + utilities. 412/421-2515.
+GREENFIELD
+
+Newly renovated, lst ﬂoor, 1BR apt. 
+ceilings. Large, eat-in, equipped kitchen.
+Beautiful ﬂoors. W/D on premises. Large,
+private backyard & garden. On bus lines &
+close to Oakland, Downtown, Squirrel Hill,
+& Waterfront. Greatview ofthe city! Parking!
+Must see! $600 + G&E. Call 412/422-7722.
+GREENFIELD/SQUIRREL HILL
+Seeking professional female to share furnished
+houseinGreenlield, near hospitals&universi-
+ties. Gorgeous view, deck, garden. Laundry&
+parkingavailable.4blocks to bus. No smoking,
+no pets. References & deposit required. $400
++ 1/2 ofutilities, Call 4,12/422-2350.)
+
+”GREENFIELD/SQUIRRELHILLA 1
+' 2—BR spacious unit/duplex, private entrance,
+
+eat-in equipped kitchen, free W/D in base-
+ment, W/W new carpet, front & backyard
+porch, quiet street Next to bus line, Giant
+Eagle, Schenley Park. 6 min. drive to Pittl
+CMU, friendly neighborhood, good credit
+historyor/and references required, $690+,
+
+available Aug. 15. Contact 412/521-2632 or ,
+
+marsha23@earthlink.net.
+
+A LINCOLN PLACE
+
+Near Kennywood Park. Furnished, quiet,
+3-room basement apartment. Private bath,
+clean, newly remodeled. $450 utilities
+included. Month-to-month lease available.
+412/461-1155.
+
+SHADYSIDE
+
+Morewood Ave. 2-BR townhouse with com-
+puter room, LR, DR, EIK, HWﬂoors, W/D,
+garage. Available  1 -June 1. $950 + all.
+Call 412/621-6633.
+
+SQUIRREL HILL
+
+5 645 Forbes Ave., 4 BR, 2 baths, totally reno-
+vated. Walking distance to campus. Available
+July 1. $l,400+ utilities. 724/444-1006.
+SQUIRREL HILL -
+
+Charming room, fumished, includes linens.
+Use of kitchen, laundry & patio. Ideal for
+ professor or graduate student Short
+orlongterm. $525 neg. Availableimmediately.
+412/521-7048. .
+
+SQUIRREL HILL
+
+Bright, spacious, 7-room duplex. 3 BR, 2 baths,
+sunroom, balcony, HWﬂoors, DW, near bus,
+W/D hook-ups. Perfect for visiting professor
+or grad student. No pets._ $1,195 + utilities.
+AvailableJuly 1. Call 412/521-7048.
+SQUIRREL HILL
+
+Luxury, location, lifestyle Tired oflargerental
+complex? The Reserve at Summerset features
+new construction, tasteful 2- & 3-BR town
+homes integrated into designed, traditional
+oommunity.9ft.cei1ings,HW1loors, 2+bath-
+rooms, 2-cargatages,eqt1ippedkitchens,laun-
+dry 8: more. Perfect for roommates & stall’.
+Homes like no other! Call 412/521-0495.
+SQUIRREL HILL
+
+Stylish, furnished townhouse suitable for
+univeisity visitors. 4 BR, 2 baths, 2 FP.
+Short or long term. Fully equipped kitchen.
+Many extras. $1,350+. Available August.
+412/422-1147 or http://www.pitt.edu/
+-scorpio/house.
+
+a check for the full amount made payable .
+
+ 
+
+SQUIRREL HILL DUPLEX
+
+Furnished, spacious 7 rooms. Sunroom, 3 BR,
+2 baths, HW ﬂoors, W/D hook-ups, balcony,
+DW, near bus line. Perfectforprofessor or grad
+student. $1,550 + utilities. No pets. Available
+Sept. 1. Call 412/521-7048.
+
+HOUSING/SALE
+
+POINT BREEZE _
+Lovely home, Lyndhtust Dr. off Beechwood
+Blvd. & 5th at Mellon Park. Beautiful, quiet
+cul-de-sac. LR, DR, den, eat-in kitchen, PR,
+3 BR, 2 baths, 4 walk-in closets (1 cedar).
+Excellent storage. Gameroom with separate
+entrancetopatio&tree-filledbackyard.Laun-
+dry room, security system 412/361-3950.
+
+‘HOUSING/VVANTED
+
+WHEELCHAIR-ACCESSIBLE
+HOUSING '
+
+Wheelchair-accessible housing w/roll-in
+shower, etc. For Pitt student in December
+2004. Please call 304/281-1253 & leave
+message.
+
+OFF-STREET PARKING
+
+Open-lot spaces between Atwood St. 8:
+Meyran Ave., 1 block from Forbes Ave.
+$95/mo. 412/682-7622.
+
+SUMMER TUTORING
+
+Experienced teacher certiﬁed in elementary
+education& Spanish availabletotutorchildren
+in reading & math. Experienced with leam—
+ing disabilities. Spanish tutoring, all levels.
+Spanish lessons also available for children &
+adults, individual or small groups. Conversa-
+tional Spanish myspecialty. Contactﬂindy at:
+
+laprofesora4u@hot1nail.com. “ 
+
+   
+
+ ..5..!+!!3"T='¢..'-",l.'$ NEEDED
+
+ADULT PARTICIPANTS
+
+School of Education researchers seeking 9
+participants for study investigating effects
+of 12-week relaxation exercise or physical
+exercise group in treatment of depression.
+Men and women aged 30-60 years with
+depression diagnosis & taking antidepressant
+medication and/or undergoing therapy may
+be eligible. Contact Kristie at 412/648-3186
+or klabt@pitt.edu for information.
+ADULTS NEEDED
+
+Adults (18-70) currently in outpatient treat-
+ment for a mood or anxiety problem at a
+WPIC site may be eligible for a computer
+researchstudy. Participants completea 1-hour
+oomputexizedmood questionnaire atourofﬁce
+in Oakland. Participants will be paid $2 5. For
+more information, call 412/246-5551.
+CAUCASIAN WOMEN
+
+Ages 50-75 years wanted for University
+of Pittsburgh research  Investigators
+seeking knowledge regarding potential
+osteoporosis treatments. Receiveaninjection
+of either parathyroid hormone or parathy-
+roid hormone-related protein. Requires two
+5-hour visits with blood collections. Receive
+up to $250. Call 412/383-8704.
+HEALTHY MALES 8: FEMALES
+
+Male & female adults between the ages of 40-
+60ingoodhealthwho have nothad hepatitisB
+orthehepatitisBvaccineareneededforasu1dy
+of vaccination immunity response & stress.
+Call41 2/624-24l4toleam more Participants
+receive up to $230 compensation.
+HEALTHY VOLUNTEERS WANTED
+
+A Caucasian men 8: women ages 24-35 needed
+
+for a study determining maximum safe dose
+of a one-time injection of PTHrP under the
+skin. Study involves intermittent blood & urine
+collections during a 10-hour outpatient stay.
+Subjects receive $150. For more information
+call 412/ 383-8704.
+
+Uniersity Times
+
+CLASSIFIEDS
+WORK!
+
+  
+
+41 2/ 624-4644
+
+12
+

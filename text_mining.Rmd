@@ -1,0 +1,587 @@
+---
+title: "Text Mining"
+author: "Jack Rechsteiner"
+date: "2025-06-05"
+output: 
+  github_document: 
+    toc: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#load tidyverse, tidytext, and tm
+library("tidyverse")
+library(tidytext)
+library(tm)
+library(pdftools)
+```
+
+# Articles from 2000 to 2005
+
+## Data Reading
+
+```{r}
+#reading the OCR files into a corpus with the tm and tidy packages
+tidy_ocr <- 
+  tidy(VCorpus(DirSource('OCR', encoding = "UTF-8"), readerControl = list(language = "eng"))) %>% 
+  #dropping irrelevant columns
+  select(!c(author:heading, language, origin)) %>% 
+  #removing the file extensions to make copying and pasting article ids easier
+  mutate(across(id, ~ str_extract(.x, "[0-9]+")), 
+         #also doing some pre-processing cleanup to remove weird spacing so that the sentences output is more how I want it to be
+         across(text, ~ str_replace_all(.x, c("\\\n" = " ", "\\s+" = " ", "- *" = ""))))
+
+tidy_sentences <- 
+  tidy_ocr %>% 
+  #breaking up the tidy df into one row per "sentence" using tidytext
+  unnest_sentences(output = sentence, input = text) 
+
+#trying out a simple str_detect search for cranberry township
+cranberry_sentences <-
+  tidy_sentences %>% 
+  filter(str_detect(sentence, "cranberry")) %>% 
+  #there are some hits for cranberry that aren't related to the township tho
+  filter(!str_detect(sentence, "cranberry ?(sauce|juice|mixture|—ginger|almond|, others appear garish)"),
+         #This result was for a crossword puzzle hint
+         !str_detect(sentence, "30 cranberry 42")) %>% 
+  mutate(neighborhood = "Cranberry Township")
+
+#trying out a simple str_detect search for hill district
+hilldistrict_sentences <-
+  tidy_sentences %>% 
+  filter(str_detect(sentence, "hill district"))
+
+#looking for hill district areas by name
+##note: no results for "crawford roberts", "crawford-roberts", "terrace village", or "middle hill"
+#"bedford", "lower hill", and "upper hill" all have matches that aren't in the "hill district" search
+additional_hd_sentences <- 
+  tidy_sentences %>% 
+  filter(str_detect(sentence, "bedford|lower hill|upper hill"),
+         #filtering out the "hill district" matches so I don't double count things
+         !str_detect(sentence, "hill district"))
+
+#making one df from the previous two
+hd_sentences <-
+  rbind(hilldistrict_sentences, additional_hd_sentences) %>% 
+  mutate(neighborhood = "Hill District")
+
+#simple str_detect search for forest hills
+fh_sentences <- 
+  tidy_sentences %>% 
+  filter(str_detect(sentence, "forest hills"))  %>% 
+  mutate(neighborhood = "Forest Hills")
+
+#simple str_detect search for lawrenceville
+lawrenceville_sentences <- 
+  tidy_sentences %>% 
+  filter(str_detect(sentence, "lawrenceville")) %>% 
+  mutate(neighborhood = "Lawrenceville")
+```
+
+The data reading and wrangling has me thinking that ngram analysis is not the best tool for this.
+It may be better to assign each article/ad to a main topic and run stats on them that way.
+I could also select a few representative news stories to display on the storymaps exhibit.
+
+If I do this though, I need to figure out how to not double count articles...
+Let's start by identifying instances where there are multiple matches for neighborhood names within a single article.
+
+### Removing repeated instances of articles
+
+```{r}
+#finding the issue ids that appear multiple times
+duplicate_cb_articles <- 
+  cranberry_sentences %>% 
+  #pulling out the article id values
+  pluck("id") %>% 
+  #awkward way of doing this but this gives back the actual values instead of TRUE or FALSE
+  .[duplicated(.)] %>% 
+  #making it so I'm only saving the unique article ids 
+  unique()
+
+#filtering out duplicate cranberry articles
+cb_articles_unique <- 
+  cranberry_sentences %>% 
+  #turns out that only id 31735070125228 has separate articles for cranberry so we'll make those unique
+  mutate(across(id, ~ case_when(.x == "31735070125228" ~ make.unique(.x, sep = "_"),
+                                .default = id))) %>% 
+  distinct(pick("id"), .keep_all = TRUE)
+
+#finding the issue ids that appear multiple times
+duplicate_hd_articles <- 
+  hd_sentences %>% 
+  #pulling out the article id values
+  pluck("id") %>% 
+  #awkward way of doing this but this gives back the actual values instead of TRUE or FALSE
+  .[duplicated(.)] %>% 
+  #making it so I'm only saving the unique article ids 
+  unique()
+
+#filtering out duplicate hill district articles
+hd_articles_unique <- 
+  hd_sentences %>% 
+  #turns out that only id 31735070125228 has separate articles for cranberry so we'll make those unique
+  mutate(across(id, ~ case_when(.x == "31735070125921" ~ make.unique(.x, sep = "_"),
+                                .default = id))) %>% 
+  distinct(pick("id"), .keep_all = TRUE)
+
+#finding the issue ids that appear multiple times
+duplicate_fh_articles <- 
+  fh_sentences %>% 
+  #pulling out the article id values
+  pluck("id") %>% 
+  #awkward way of doing this but this gives back the actual values instead of TRUE or FALSE
+  .[duplicated(.)] %>% 
+  #making it so I'm only saving the unique article ids 
+  unique()
+
+#filtering out duplicate forest hills articles
+fh_articles_unique <- 
+  fh_sentences %>% 
+  #no true duplicates found
+  distinct(pick("id"), .keep_all = TRUE)
+
+#finding the issue ids that appear multiple times
+duplicate_lv_articles <- 
+  lawrenceville_sentences %>% 
+  #pulling out the article id values
+  pluck("id") %>% 
+  #awkward way of doing this but this gives back the actual values instead of TRUE or FALSE
+  .[duplicated(.)] %>% 
+  #making it so I'm only saving the unique article ids 
+  unique()
+
+lv_unique_ids <- c("31735070125665", "31735070125699", "31735070125707", "31735070125764", "31735070125806", "31735070131549", "31735070131556", "31735070131663", "31735070131671", "31735070131739", "31735070131846", "31735070131853", "31735070131937", "31735070131952", "31735070131960", "31735070131978", "31735070132299", "31735070132315", "31735070132414", "31735070132448", "31735070132513", "31735070132547", "31735070132794", "31735070133016", "31735070133024", "31735070133032", "31735070133131", "31735070133149", "31735070133156", "31735070133354", "31735070133669", "31735070133677", "31735070133685")
+
+lv_articles_unique <- 
+  lawrenceville_sentences %>% 
+  #turns out that only id 31735070125228 has separate articles for cranberry so we'll make those unique
+  mutate(across(id, ~ case_when(.x %in% lv_unique_ids ~ make.unique(.x, sep = "_"),
+                                .default = id))) %>% 
+  distinct(pick("id"), .keep_all = TRUE)
+
+#now to bind everything back together into one df
+all_sentences_unique <-
+  rbind(cb_articles_unique, fh_articles_unique, hd_articles_unique, lv_articles_unique) %>% 
+  #and removing duplicate texts across multiple articles
+  distinct(pick("sentence"), .keep_all = TRUE)
+```
+
+Notes from doing the duplicate checking: 
+- "murderer on the hill district" is actually the title of a play
+- there are some ads that are repeated across multiple issues that have to be removed
+
+### Removing ads and such that are repeated across multiple issues
+
+```{r}
+unique_article_sentences <-
+  all_sentences_unique %>% 
+  #making a new column that only contains the letters and numbers of the sentence column
+  mutate(sentence_subset_begin = str_replace_all(sentence, "[^a-z0-9]", "")  %>% 
+           #subsetting the first 30 characters to avoid OCR errors that come with using the full strings
+           str_sub(1, 30),
+         sentence_subset_end = str_replace_all(sentence, "[^a-z0-9]", "")  %>% 
+           #subsetting the last 30 characters
+           str_sub(-30)) %>% 
+  #selecting only the rows with distinct subsets
+  distinct(pick("sentence_subset_begin"), .keep_all = TRUE) %>% 
+  distinct(pick("sentence_subset_end"), .keep_all = TRUE) %>% 
+  #dropping the sentence_subset columns
+  select(!starts_with("sentence_subset"))
+```
+
+Now it's time to start categorizing the articles into themes.
+
+## Article theme categorization
+
+```{r}
+themed_articles_2000s <- 
+  unique_article_sentences %>% 
+  #using case_when and str_detect to assign categories to things that are easily identified as ads
+  mutate(theme = case_when(str_detect(sentence, "sparkling 3 and a half bedroom house") ~ "housing ad",
+                           #there are some duplicate ads for the sparkling 3 and a half bedroom house
+                           str_detect(sentence, "sparkling . 3 and a half bedroom house") ~ "duplicate",
+                           str_detect(sentence, "efficiency apartment for rent") ~ "housing ad",
+                           #duplicate efficiency ads with ocr errors
+                           str_detect(sentence, "efﬁciencyapartment") ~ "duplicate",
+                           str_detect(sentence, "lawrenceville efficiency apartment\\.") ~ "duplicate",
+                           str_detect(sentence, "lawrenceville\\. 10 minutes from oakland") ~ "housing ad",
+                           #the duplicates below were really fun to find thanks to ocr errors
+                           str_detect(sentence, "mana%ement wwwﬂakhiuaptscom open saturdays") ~ "duplicate",
+                           str_detect(sentence, "replies: \\$2.50 mailed replies: \\$5.00") ~ "duplicate",
+                           str_detect(sentence, "newly remodeled home") ~ "housing ad",
+                           str_detect(sentence, "apartment for rent") ~ "housing ad",
+                           str_detect(sentence, "studio apartment") ~ "housing ad",
+                           str_detect(sentence, "3 rooms and bath") ~ "housing ad",
+                           str_detect(sentence, "bedroom") ~ "housing ad",
+                           str_detect(sentence, "forest hills/churchill residential lot") ~ "housing ad",
+                           #duplicate of the previous housing ad
+                           str_detect(sentence, "university of forest hills/churchill") ~ "duplicate",
+                           
+                           str_detect(sentence, "upstairs saloon in handyman stuff") ~ "job ad",
+                           #these four are all arsenal ads that weren't caught earlier
+                           str_detect(sentence, "arsenal") ~ "duplicate",
+                           str_detect(sentence, "lawrenceville, call 6835992 for directions") ~ "duplicate",
+                           str_detect(sentence, "lawrenceville, call 412(house|spring)") ~ "duplicate",
+                           str_detect(sentence, "lawrenceville near the shadyside. 412361") ~ "duplicate",
+                           
+                           str_detect(sentence, "position with ﬂexible") ~ "job ad",
+                           str_detect(sentence, "\\$8/hr") ~ "job ad",
+                           str_detect(sentence, "entry—level technical consulting position") ~ "job ad",
+                           str_detect(sentence, "must be computer literate") ~ "job ad",
+                           str_detect(sentence, "hiring now for these areas") ~ "job ad",
+                           str_detect(sentence, "box, 1703, cranberry") ~ "job ad",
+                           str_detect(sentence, "flexible hours in forest hills area") ~ "job ad",
+                           #duplicate ads with ocr errors
+                           str_detect(sentence, "forest hills area. include checking elecnizer") ~ "duplicate",
+                           str_detect(sentence, "flexiblc hours in forest hills area") ~ "duplicate",
+                           #this ad from 31735070125848 is a different job ad from the previous ad
+                           str_detect(sentence, "forest hills area\\.") ~ "job ad",
+                           
+                           str_detect(sentence, "cranberry mall, titusville, 10 am") ~ "event",
+                           str_detect(sentence, "lawrenceville with artists los straightjacket") ~ "event",
+                           str_detect(sentence, "see them live at the eye in lawrenceville") ~ "event",
+                           str_detect(sentence, "at 8:30 pm 216 mystic pine trail") ~ "event",
+                           #there were a few duplicate ads for the mystic pine trail event with slightly different wording
+                           str_detect(sentence, "(at8:3o pm|where:) 216 mystic pine trail") ~ "duplicate",
+                           str_detect(sentence, "project bundleup telethon") ~ "event",
+                           #there was a duplicate ad for the bundleup telethon that had OCR errors
+                           str_detect(sentence, "bundleupteletbon") ~ "duplicate",
+                           
+                           str_detect(sentence, "a stunning view of downtown, east end and the hill district") ~ "event",
+                           str_detect(sentence, "this festival in lawrenceville") ~ "event",
+                           str_detect(sentence, "ceremonies commemorating") ~ "event",
+                           str_detect(sentence, "choice cuts reading david") ~ "event",
+                           str_detect(sentence, "blues artists at this lawrenceville venue") ~ "event",
+                           str_detect(sentence, "moves to a new location in lawrenceville") ~ "event",
+                           str_detect(sentence, "times they area changin’ in lawrenceville") ~ "event",
+                           str_detect(sentence, "feel like catching the blues this weekend") ~ "event",
+                           str_detect(sentence, "strap on your walking shoes") ~ "event",
+                           str_detect(sentence, "franciscan theology evenings 225 fisk street") ~ "event",
+                           str_detect(sentence, "shuwcasendrth showcasewest") ~ "event",
+                           
+                           
+                           str_detect(sentence, "dick’s sporting goods stores in cranberry") ~ "retail",
+                           str_detect(sentence, "strip district or lawrenceville \\(41_2\\)7.65166565") ~ "retail",
+                           str_detect(sentence, "one at 4503 penn ave. in lawrenceville") ~ "retail",
+                           
+                           str_detect(sentence, "he was a member of the lions club") ~ "obituary",
+                           str_detect(sentence, "richard hugh mccoy") ~ "obituary",
+                           str_detect(sentence, "bianculli") ~ "obituary",
+                           str_detect(sentence, "is survived by") ~ "obituary",
+                           str_detect(sentence, "heart attack at his home") ~ "obituary",
+                           str_detect(sentence, "rogers helped develop the matilda theiss center") ~ "obituary",
+                           
+                           #movies
+                           str_detect(sentence, "sun rising on the hill district") ~ "art",
+                           #plays
+                           str_detect(sentence, "murder(er)? on the hill district") ~ "art",
+                           #photography
+                           str_detect(sentence, "he was taking pictures of funerals and weddings") ~ "art",
+                           #music
+                           str_detect(sentence, "foster was bo(r)?n (in lawrenceville|on july 4, 1826)") ~ "art",
+                           str_detect(sentence, "the life of the composer") ~ "art",
+                           #pottery studio
+                           str_detect(sentence, "a pottery. studio in lawrenceville") ~ "art",
+                           #community location for arts
+                           str_detect(sentence, "crawford grill celebrates 60 years") ~ "art",
+                           
+                           str_detect(sentence, "talk about urban sprawl") ~ "teaching/education",
+                           str_detect(sentence, "gone to homestead, the strip district, the hill district") ~ "teaching/education",
+                           str_detect(sentence, "one of her grandmothers was from forest hills") ~ "teaching/education",
+                           str_detect(sentence, "i’d been a faculty member here for a few months") ~ "teaching/education",
+                           str_detect(sentence, "writer rob penny’s name") ~ "teaching/education",
+                           str_detect(sentence, "proclaimed .hill district graduate") ~ "teaching/education",
+                           str_detect(sentence, "friendship, garﬁeld, homewood, larirnar, lawrenceville") ~ "teaching/education",
+                           str_detect(sentence, "deacidiﬁcation process will be done at preservation technologies in cranberry") ~ "teaching/education",
+                           
+                           str_detect(sentence, "noncustodial fathers") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "stephen foster community center") ~ "outreach/nonprofit organization",
+                           #fundraisers for people in need
+                           str_detect(sentence, "a needy family in pittsburgh’s hill district") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "to sponsor a homein the hill district") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "fund raisers for the house it is building in the hill district") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "houses forneedy families") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "towards the construction’ of new houses") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "donated gently used and new children’s books") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "butler, beaver and cranberry, and addition") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "decided to get his blood pressure checked") ~ "outreach/nonprofit organization",
+                           str_detect(sentence, "community issues discussed in hill district") ~ "outreach/nonprofit organization",
+                           
+                           str_detect(sentence, "rt 528, cranberry, wexford") ~ "transit",
+                           #duplicate ads for the vanpool service
+                           str_detect(sentence, "evans city, cranberry, wexford") ~ "duplicate",
+                           str_detect(sentence, "ramps will connect route 228 and i79 in the cranberry") ~ "transit",
+                           str_detect(sentence, "route 30 \\(forest hills\\)") ~ "transit",
+                           
+                           
+                           str_detect(sentence, "koh1’s. department store v in cranberry") ~ "politics/activism",
+                           str_detect(sentence, "daryl metcalfe") ~ "politics/activism",
+                           str_detect(sentence, "state representatives don walko") ~ "politics/activism",
+                           str_detect(sentence, "now represents the hill district") ~ "politics/activism",
+                           str_detect(sentence, "robinson, .d—hill district.") ~ "politics/activism",
+                           
+                           str_detect(sentence, "francis cranberry and to purchase st") ~ "UPMC hospital",
+                           str_detect(sentence, "francis hospital location in lawrenceville would alleviate") ~ "UPMC hospital",
+                           str_detect(sentence, "though upmc has scrapped") ~ "UPMC hospital",
+                           
+                           str_detect(sentence, "battling a fouralarm ﬁre at ebenezer baptist") ~ "emergency/crime",
+                           str_detect(sentence, "ger(')?maine( )?cook") ~ "emergency/crime",
+                           str_detect(sentence, "don wilson") ~ "emergency/crime",
+                           
+                           str_detect(sentence, "west virginia quarterback rasheed marshall") ~ "sports",
+                           
+                           str_detect(sentence, "pittsburgh reporters who refuse to go into neighborhoods") ~ "discrimination",
+                           str_detect(sentence, "list of property in the lower hill district that was demolished") ~ "displacement/gentrification",
+                           #this one is a map so I'm going to use it as a nice visual but not include it in the data
+                           str_detect(sentence, "5' hill district tlidksstodo") ~ "duplicate",
+                           #this one is from an april fool's day article, so it really feels like it shouldn't be included
+                           ##but it does have nice examples of pittsburghese
+                           str_detect(sentence, "we’re gonna get him in north side and east liberty") ~ "duplicate",
+                           .default = "unassigned")) %>% 
+  filter(theme != "duplicate") %>% 
+  #adding in a years column
+  mutate(year = "2000-2005")
+```
+
+
+## Fun facts and unused analyses
+
+Fun fact: there are no results for "jagoff", "grinny", "gumband", "redd", or "nebby", but "stillers", "yinz", and "iggle" show up. "n’at" shows up, but mostly in the title of the sex column "Sex N’at"
+
+```{r}
+tidy_sentences %>% 
+  filter(str_detect(sentence, " stillers|yinz| iggle|jagoff|gumband| redd |nebby|n’at|grinny"))
+
+# the difference in yinz over time could be interesting because pitt news in 2020-2025 uses it mostly for sports articles
+tidy_sentences %>% 
+  filter(str_detect(sentence, "yinz"))
+```
+
+The code block below contains my attempt at ngram analysis for posterity.
+
+```{r}
+#trying out trigrams
+tidy_sentences %>%
+  unnest_tokens(trigram, sentence, token = "ngrams", n = 3) %>%
+  filter(!is.na(trigram)) %>%
+  filter(str_detect(trigram, "cranberry"))  %>%
+  #there are some hits for cranberry sauce/juice/mixture/etc tho
+  filter(!str_detect(trigram, "cranberry (sauce|juice|mixture|ginger|almond)"))
+```
+
+# Articles from 2020 to 2025
+
+## Reading in files
+
+```{r}
+#Creating a tibble with an id list of pdf names
+recent_articles <- 
+  tibble(filename = list.files("2020_2025_Articles", pattern="*.pdf", full.names=TRUE))
+
+#adding in the pdf text as a column
+recent_article_df <-
+  recent_articles %>% 
+  #making it so mutate goes row-by-row
+  rowwise() %>% 
+  #reading in the pdf text
+  mutate(text = toString(list(pdf_text(filename))),
+         #also doing some pre-processing cleanup to remove weird spacing so that the text output is more how I want it to be
+         
+         across(text, ~ str_replace_all(., c("\\\\n" = " ", 
+                                             "\\s+" = " ", "- *" = "", 
+                                             "c\\(\"" = "", 
+                                             ## also removing date/url info that was created when downloading the pdfs
+                                             "The Pitt News.+https://pittnews.com.+/ " = "", 
+                                             "6/26/25, \\d\\d?:\\d\\d PM " = "", 
+                                             "\\| University .+ Pittsburgh VOLUME \\d\\d ISSUE \\d\\d?: [A-Z]+ \\d\\d?, 202[0-5]" = ""))),
+         #removing the file locations and exts now that they aren't needed
+         across(filename, ~ str_replace_all(., c("2020_2025_Articles/" = "", ".pdf" = ""))),
+         #adding in neighborhood column based on file names
+         neighborhood = case_when(str_detect(filename, "CB") ~ "Cranberry Township",
+                                  str_detect(filename, "FH") ~ "Forest Hills",
+                                  str_detect(filename, "LV") ~ "Lawrenceville",
+                                  str_detect(filename, "HD") ~ "Hill District",
+                                  .default = "Bad File Name"),
+         #adding in headlines or descriptions for files that don't have PDF text to extract
+         text = case_when(filename == "PN_CB05_ad" ~ "Advertisement for Glass Gone Wow smoke shop",
+                          filename == "PN_FH01_ad" ~ "Babysitter Needed 2-3 days/wk, 9a-1:30p. 2 YO boy; Forest Hills",
+                          filename == "PN_HD05" ~ "Kathy Gallagher Bridging the Two Oaklands",
+                          filename == "PN_HD11" ~ "Cedric Humphrey An Era of Empathy",
+                          filename == "PN_HD12" ~ "Melissa McGivney A shot of community",
+                          filename == "PN_LV06" ~ "DongJo Kim Food Visionary",
+                          filename == "PN_LV35_ad" ~ "Advertisement for Goodwill stores",
+                          .default = text),
+         #adding in a year column
+         year = "2020-2025") %>% 
+  #removing the rowwise so I don't forget to later
+  ungroup()
+```
+
+## Categorizing by theme
+
+```{r}
+themed_articles_2020s <-
+  recent_article_df %>% 
+  mutate(theme = case_when(str_detect(text, "Divvy Coffee & Buns brings flavors") ~ "retail",
+                           str_detect(text, "10 things to look forward to in 2025") ~ "retail",
+                           str_detect(text, "Advertisement for") ~ "retail",
+                           str_detect(text, "Stop by Oakland popup café") ~ "retail",
+                           str_detect(text, "Lawrenceville Market House") ~ "retail",
+                           str_detect(text, "Get Out of Oakland . Lawrenceville") ~ "retail",
+                           str_detect(text, "Mosaic Leaf Matcha (Tea )?Bar") ~ "retail",
+                           str_detect(text, "Students discuss on, offcampus bar options") ~ "retail",
+                           str_detect(text, "La Gourmandine on Butler Street") ~ "retail",
+                           str_detect(text, "Chez Lapin") ~ "retail",
+                           str_detect(text, "Aesthetic Skin and Laser Center in Lawrenceville") ~ "retail",
+                           str_detect(text, "Mello and Sons") ~ "retail",
+                           str_detect(text, "Tryp Hotel in Lawrenceville") ~ "retail",
+                           str_detect(text, "Morcilla") ~ "retail",
+                           str_detect(text, "Upperclassmen offer advice to incoming firstyears") ~ "retail",
+                           str_detect(text, "Phat Nguyen") ~ "retail",
+                           str_detect(text, "Banh Mi and Ti") ~ "retail",
+                           str_detect(text, "DongJo Kim") ~ "retail",
+                           str_detect(text, "Pittsburgh date spots this Valentine’s Day") ~ "retail",
+                           str_detect(text, "Pittsburgh Furniture Company") ~ "retail",
+                           str_detect(text, "Five tips for making the most of Pitt’s campus") ~ "retail",
+                           str_detect(text, "Top 10 things I will miss about Pittsburgh") ~ "retail",
+                           str_detect(text, "Pittsburgh tattoo shops") ~ "retail",
+                           str_detect(text, "How to not kill your dorm plants") ~ "retail",
+                           
+                           str_detect(text, "Pittsburgh LGBTQ. film festival celebrates 35th") ~ "art",
+                           str_detect(text, "‘It’s ours to spread and to make new’: Pittsburgh") ~ "art",
+                           str_detect(text, "4 things you didn’t know about Andy Warhol") ~ "art",
+                           str_detect(text, "Pitt to host 51st annual jazz seminar honoring") ~ "art",
+                           str_detect(text, "Art for August’ traveling art exhibit") ~ "art",
+                           str_detect(text, "Pitt acquires archive of late playwright August Wilson") ~ "art",
+                           str_detect(text, "Film festivals coming to Pittsburgh in October") ~ "art",
+                           str_detect(text, "‘Making home here’ exhibit debuts") ~ "art",
+                           str_detect(text, "Dave Newman") ~ "art",
+                           str_detect(text, "Library system gets .1 million to support August Wilson archive") ~ "art",
+                           str_detect(text, "‘Art for August’ at Hillman Library honors playwright’s legacy") ~ "art",
+                           str_detect(text, "Online jazz seminar this month will honor pianist") ~ "art",
+                           str_detect(text, "Library acquires papers of Kuntu Repertory") ~ "art",
+                           
+                           str_detect(text, "Cedric Humphrey An Era of Empathy") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Melissa McGivney A shot of community") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Pharmacy students deliver COVID19 vaccines") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Plant ?2 ?Plate") ~ "outreach/nonprofit organization",
+                           str_detect(text, "(CEC in the Hill District|Hill District CEC|New Granada Theater)") ~ "outreach/nonprofit organization",
+                           str_detect(text, "‘Christmas Day at Pitt’ gathers") ~ "outreach/nonprofit organization",
+                           str_detect(text, "African American Achievement Trust") ~ "outreach/nonprofit organization",
+                           str_detect(text, "NIL deal with Boys and Girls Club") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Highmark renews offer to contribute to city") ~ "outreach/nonprofit organization",
+                           str_detect(text, "an operating engineer apprenticeship program in collaboration with Hill District community groups") ~ "outreach/nonprofit organization",
+                           str_detect(text, "(C|c)ommunity (E|e)ngagement (C|c)enters?( opens)? in (Homewood|the Hill District|and the Hill District)") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Gismondi Neighborhood Education Program") ~ "outreach/nonprofit organization",
+                           str_detect(text, "University has let down Pitt’s black") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Pittsburgh Hill District Consensus Group") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Project Love, Hill District") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Building Capacity for Addressing Complex Social Challenges") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Jay Frerotte") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Christmas Day at Pitt") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Shenay Jeffrey") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Civic Action Week") ~ "outreach/nonprofit organization",
+                           str_detect(text, "toy drive for Primary Care Health Services in the Hill District") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Humphrey says Pitt taught her leadership") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Employees have given 2,957 volunteer hours") ~ "outreach/nonprofit organization",
+                           str_detect(text, "Boys and Girls Club’s Carnegie and Lawrenceville") ~ "outreach/nonprofit organization",
+                           
+                           str_detect(text, "Clemente event, other activities part of Hispanic Heritage Month") ~ "event",
+                           str_detect(text, "Events in Pittsburgh to celebrate Latinx Heritage") ~ "event",
+                           str_detect(text, "Pittsburgh Shakespeare in the Parks announces") ~ "event",
+                           str_detect(text, "Contemporary Craft") ~ "event",
+                           str_detect(text, "(Rowhouse Theater in Lawrenceville|Row House Cinema)") ~ "event",
+                           str_detect(text, "Plain White T’s perform") ~ "event",
+                           str_detect(text, "Jazz Seminar will feature multigenerational lineup") ~ "event",
+                           str_detect(text, "music will take place at Ebenezer Baptist Church in the Hill District") ~ "event",
+                           str_detect(text, "Pitt Jazz Seminar’s concluding concert at Pittsburgh Playhouse") ~ "event",
+                           str_detect(text, "Crepescule") ~ "event",
+                           str_detect(text, "Library System celebrating August Wilson Archive opening") ~ "event",
+                           #note: these two events just feature quotes from people who live in Cranberry/Forest Hills
+                           str_detect(text, "Taylor Swift fans flock to") ~ "event",
+                           str_detect(text, "Pittsburgh Shakespeare in the Park puts new") ~ "event",
+                           
+                           str_detect(text, "Student org helps traumatic brain injury patient") ~ "UPMC hospital",
+                           str_detect(text, "UPMC Lemieux Sports") ~ "UPMC hospital",
+                           str_detect(text, "Pitt physician’s short film targets") ~ "UPMC hospital",
+                           str_detect(text, "Pitt athletic trainer donating kidney") ~ "UPMC hospital",
+                           str_detect(text, "Pitt IT plans town halls for faculty and staff") ~ "UPMC hospital",
+                           
+                           str_detect(text, "7 Pitt faculty win Black Excellence") ~ "teaching/education",
+                           str_detect(text, "History professor’s website focuses on Black migration to Pittsburgh") ~ "teaching/education",
+                           str_detect(text, "Second year of Pitt Momentum Fund grants awarded") ~ "teaching/education",
+                           str_detect(text, "LifeX offering wet lab space for Pittsburgh") ~ "teaching/education",
+                           str_detect(text, "Kathy Gallagher Bridging the Two Oaklands") ~ "teaching/education",
+                           #this article on Local History Day appears twice because it mentions HD and LV, 
+                           ##so I'm categorizing it by file name to get around the overlap
+                           ## it primarily mentions LV in the context of the LV historical society which is educational
+                           filename == "PN_LV01" ~ "teaching/education",
+                           
+                           str_detect(text, "Babysitter Needed") ~ "job ad",
+                           
+                           str_detect(text, "The once caddie, now dentist") ~ "sports",
+                           str_detect(text, "DeJuan Blair") ~ "sports",
+                           str_detect(text, "Sam Clancy. A guarantee on Pittsburgh’s") ~ "sports",
+                           
+                           str_detect(text, "93 bus line needed on weekends") ~ "transit",
+                           
+                           str_detect(text, "Peggie Dunklin") ~ "obituary",
+                           str_detect(text, "Mary Ann Peterson") ~ "obituary",
+                           str_detect(text, "Robert Berkley Harper") ~ "obituary",
+                           
+                           str_detect(text, "Ed Gainey elected Pittsburgh’s first Black mayor") ~ "politics/activism",
+                           str_detect(text, "Black political leaders call for action beyond voting") ~ "politics/activism",
+                           str_detect(text, "Pittsburghers mourn, protest after guilty verdict in") ~ "politics/activism",
+                           str_detect(text, "People’s Pride celebrates, advocates for Black trans") ~ "politics/activism",
+                           str_detect(text, "Dann?ielle Brown") ~ "politics/activism",
+                           str_detect(text, "March to Market Square. Women’s March") ~ "politics/activism",
+                           str_detect(text, "Activists say protests need to lead to policies") ~ "politics/activism",
+                            
+                           str_detect(text, "We are widening the corridors and adding more") ~ "displacement/gentrification",
+                           str_detect(text, "Mark Kramer: Writer and empathy farmer") ~ "displacement/gentrification",
+                           #this article on Local History Day appears twice because it mentions HD and LV, 
+                           ##so I'm categorizing it by file name to get around the overlap
+                           filename == "PN_HD02" ~ "displacement/gentrification",
+                           str_detect(text, "Pitt students canvass for Gainey across") ~ "displacement/gentrification",
+                           str_detect(text, "News from winter break 2021") ~ "displacement/gentrification",
+                           str_detect(text, "Save Pittsburgh, end gentrification") ~ "displacement/gentrification",
+                           str_detect(text, "Gainey is a necessary change for Pittsburgh") ~ "displacement/gentrification",
+                           str_detect(text, "You don’t have to go far to find gentrification") ~ "displacement/gentrification",
+
+                           str_detect(text, "Professors’ biography sheds light on Black television news") ~ "discrimination",
+                           str_detect(text, "Collaboration helped bring antiBlack racism class") ~ "discrimination",
+                           str_detect(text, "Staff Council speaker coaches on ‘undoing oppressions’") ~ "discrimination",
+                           str_detect(text, "Diversity in the workplace means everyone feels they belong") ~ "discrimination",
+                           str_detect(text, "When diversity was the ‘bye’ word") ~ "discrimination",
+                           
+                           .default = "unassigned")) %>% 
+         #changing colnames so that the two dfs can be merged
+  rename(sentence = "text",
+         id = "filename")
+         
+```
+
+General notes: 
+- the "retail" category includes food/restaurants
+- "events" are different from "art" because they have specific locations/dates associated with them. 
+  - The "art" category contains things like artists from that neighborhood or art made about that neighborhood
+
+Some things can be interpreted as reflecting changes in the papers themselves (like the decline in job/housing ads) but others show clear patterns about how people view these areas
+
+# Putting dataframes together and exporting
+
+```{r}
+full_article_df <-
+  rbind(themed_articles_2000s, themed_articles_2020s)
+
+write_csv(full_article_df, "full_article_df.csv")
+saveRDS(full_article_df, "full_article_df.rds")
+```
+
+
+# Session Info
+
+```{r}
+sessionInfo()
+```

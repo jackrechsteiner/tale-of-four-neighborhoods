@@ -1,3 +1,17 @@
+#### ADDITIONAL ####
+
+#macOS.gitignore template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#R specific
+*.Rproj
+.Rproj.user
+sandbox/
+private/
+
 # History files
 .Rhistory
 .Rapp.history

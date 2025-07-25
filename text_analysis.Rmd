@@ -1,0 +1,62 @@
+---
+title: "Text Analysis"
+author: "Jack Rechsteiner"
+date: "2025-07-02"
+output: 
+  github_document: 
+    toc: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#load tidyverse, tidytext, and tm
+library("tidyverse")
+library(tidytext)
+library(tm)
+library(pdftools)
+```
+
+# Reading in processed data
+
+```{r}
+full_article_df <- 
+  readRDS("full_article_df.rds")
+```
+
+## Turning data into plottable numbers
+
+```{r}
+CB_data <- 
+  full_article_df %>% 
+  group_by(year, neighborhood) %>% 
+  count(theme) %>% 
+  filter(neighborhood == "Cranberry Township")
+
+FH_data <- 
+  full_article_df %>% 
+  group_by(year, neighborhood) %>% 
+  count(theme) %>% 
+  filter(neighborhood == "Forest Hills")
+
+LV_data <- 
+  full_article_df %>% 
+  group_by(year, neighborhood) %>% 
+  count(theme) %>% 
+  filter(neighborhood == "Lawrenceville")
+
+HD_data <- 
+  full_article_df %>% 
+  group_by(year, neighborhood) %>% 
+  count(theme) %>% 
+  filter(neighborhood == "Hill District")
+
+CB_data
+```
+
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
