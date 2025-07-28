@@ -54,7 +54,8 @@ This was determined to be too much of a time frame difference to be truly compar
 
 The [news articles from 2000 to 2005](2000_2005_OCR/) came from the [Documenting Pitt collection](https://documenting.pitt.edu/) that is part of the [University of Pittsburgh ULS Digital Collections](https://digital.library.pitt.edu/).
 A search was conducted to find all archived articles from [Pitt News](https://documenting.pitt.edu/collection/pitt-news) and [University Times](https://documenting.pitt.edu/collection/university-times/) that contained mentions of the 4 neighborhoods examined in this project.
-The OCR files for the articles are not publicly available but were available by request from the University Library System.
+The `.OCR` files for the articles are not publicly available but were available by request from the University Library System.
+The `.OCR` files were then converted to `.txt` files to be more easily processed in R.
 The Pitt News and University Times articles are in copyright but are free to use in any way that is permitted by the copyright.
 
 The [news articles from 2020 to 2025](2020_2025_Articles/) came from the [Pitt News website](https://pittnews.com/) and the [University Times website](https://www.utimes.pitt.edu/).
