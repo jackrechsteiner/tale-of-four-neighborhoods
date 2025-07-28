@@ -9,6 +9,10 @@ Jack Rechsteiner, [jjr156@pitt.edu](mailto:jjr156@pitt.edu); last updated July 2
 [A Tale of Four Neighborhoods](https://arcg.is/4iSbG) is a University of Pittsburgh Digital Scholarship and Publishing project completed as part of the 2025 Digital Scholarship Summer Graduate Internship.
 This repository contains the data and code that were used in A Tale of Four Neighborhoods, along with documentation detailing the processes and decisions that occurred in creating the project.
 
+This `README.md` is separated into two main sections:
+- [Data Sources](#data-sources)
+- [Data Processing](#data-processing)
+
 ## Data Sources
 
 A Tale of Four Neighborhoods contains three types of data: [map data](#map-data), [census data](#census-data), and [news article data](#news-article-data)
@@ -48,12 +52,12 @@ This was determined to be too much of a time frame difference to be truly compar
 
 ### News Article Data
 
-The news articles from 2000 to 2005 came from the [Documenting Pitt collection](https://documenting.pitt.edu/) that is part of the [University of Pittsburgh ULS Digital Collections](https://digital.library.pitt.edu/).
+The [news articles from 2000 to 2005](2000_2005_OCR/) came from the [Documenting Pitt collection](https://documenting.pitt.edu/) that is part of the [University of Pittsburgh ULS Digital Collections](https://digital.library.pitt.edu/).
 A search was conducted to find all archived articles from [Pitt News](https://documenting.pitt.edu/collection/pitt-news) and [University Times](https://documenting.pitt.edu/collection/university-times/) that contained mentions of the 4 neighborhoods examined in this project.
 The OCR files for the articles are not publicly available but were available by request from the University Library System.
 The Pitt News and University Times articles are in copyright but are free to use in any way that is permitted by the copyright.
 
-The news articles from 2020 to 2025 came from the [Pitt News website](https://pittnews.com/) and the [University Times website](https://www.utimes.pitt.edu/).
+The [news articles from 2020 to 2025](2020_2025_Articles/) came from the [Pitt News website](https://pittnews.com/) and the [University Times website](https://www.utimes.pitt.edu/).
 A search was conducted to find all articles that contained mentions of the 4 neighborhoods examined in this project.
 Articles were downloaded from their respective sites as `.pdf` files.
 
@@ -64,7 +68,10 @@ These modifications and additions are detailed in the sections below.
 
 ### Map Layers
 
-
+The [base maps](#map-data) used in this project have not been modified.
+Additional layers have been overlaid on the maps to highlight the borders and areas of the neighborhoods examined in this project.
+These layers were drawn in Google Earth Pro based on census tract maps to be consistent with the areas represented in the census data.
+After creating these layers in Google Earth Pro, they were then imported into ArcGIS Online to be used with base maps.
 
 ### Census Categories
 
@@ -88,4 +95,13 @@ The "Graduate Degree" category combines the following education categories from 
 
 ### News Text Analysis
 
+The [news articles](#news-article-data) used in this project were read into R to create a text corpus.
+This corpus was then used to categorize articles by their time frame of publication, the neighborhood mentioned in the article, and the main theme associated with the neighborhood in the article.
+It is important to note that the themes are not meant to capture the entirety of the articles but are meant to capture the reason that a neighborhood was mentioned in an article.
+For example, the article ["Upperclassmen offer advice to incoming first-years"](https://pittnews.com/article/181711/news/upperclassmen-offer-advice-to-incoming-first-years/) was categorized under the "retail" theme because Lawrenceville was mentioned as having "beautiful restaurants and a ton of ice cream joints".
 
+The full script that was used to clean and categorize the news articles can be found in [text_mining.Rmd](text_mining.Rmd).
+The output of the data processing can also be viewed in the [full_article_df.csv](full_article_df.csv) and [full_article_df.rds](full_article_df.rds).
+
+After processing the news article corpus, the [full_article_df.rds](full_article_df.rds) file was used to calculate the values presented in the news article charts seen on the project website.
+The script that was used for this analysis can be found in [text_analysis.Rmd](text_analysis.Rmd).
