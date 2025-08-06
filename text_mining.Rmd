@@ -10,7 +10,13 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-#load tidyverse, tidytext, and tm
+# # Uncomment and run these lines to install packages if not already installed:
+# install.packages("tidyverse")
+# install.packages("tidytext")
+# install.packages("tm")
+# install.packages("pdftools")
+
+#load tidyverse, tidytext, tm, and pdftools
 library("tidyverse")
 library(tidytext)
 library(tm)
