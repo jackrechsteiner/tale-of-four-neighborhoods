@@ -1,7 +1,7 @@
 ---
 title: "Text Analysis"
 author: "Jack Rechsteiner"
-date: "2025-07-02"
+date: "2025-08-06"
 output: 
   github_document: 
     toc: TRUE
@@ -10,11 +10,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-#load tidyverse, tidytext, and tm
+#load tidyverse
 library("tidyverse")
-library(tidytext)
-library(tm)
-library(pdftools)
 ```
 
 # Reading in processed data
