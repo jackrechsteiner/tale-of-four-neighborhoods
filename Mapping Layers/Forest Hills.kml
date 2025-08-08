@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Forest Hills.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Forest Hills</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.84328682261696,40.42452774470067,0 -79.84883714431326,40.43095083678908,0 -79.84814760121276,40.43385378866004,0 -79.85161354971311,40.43682464939317,0 -79.85582569900139,40.43370872993442,0 -79.86071353731927,40.43784654772658,0 -79.86607046135119,40.43178719158446,0 -79.8683486639507,40.43240125743275,0 -79.87096504451384,40.43230256071081,0 -79.87126297220135,40.43202766815782,0 -79.87010641626217,40.43038073608466,0 -79.87126653568649,40.42807903253031,0 -79.87105974062443,40.42748057736792,0 -79.87152938485211,40.42646638869064,0 -79.86874077063069,40.42529026611312,0 -79.86765701648517,40.42356695165066,0 -79.86520885664841,40.42271128522619,0 -79.86132043633526,40.42168626943964,0 -79.85908367857571,40.4204245211221,0 -79.85739467678245,40.42113294319536,0 -79.85121810381331,40.41840782896934,0 -79.85223724146776,40.41717665110551,0 -79.84976993205005,40.41555768346056,0 -79.84967166190191,40.41482737877389,0 -79.85013235950362,40.41475579673128,0 -79.84932906975573,40.41395172309414,0 -79.84883467325386,40.41200022121906,0 -79.84621188609593,40.41209944061514,0 -79.84490931857992,40.41120645991858,0 -79.8449068222348,40.41197642544468,0 -79.84387643548595,40.41193348784964,0 -79.84408578928517,40.41042766173656,0 -79.84349278995984,40.40963233675517,0 -79.84279433100575,40.40923652168129,0 -79.83833390073468,40.41528462598648,0 -79.83886908145001,40.41637050033281,0 -79.83966160352604,40.4161117832306,0 -79.84029866293805,40.41683666698992,0 -79.83946489718811,40.41702481714794,0 -79.84271416124923,40.42207531826653,0 -79.84328682261696,40.42452774470067,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>

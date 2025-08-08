@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lawrenceville.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Lawrenceville</name>
+		<LookAt>
+			<gx:TimeStamp><when>2004-12-31</when>
+</gx:TimeStamp>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-79.85135631724476</longitude>
+			<latitude>40.42796565623117</latitude>
+			<altitude>0</altitude>
+			<heading>-0.001007684436023209</heading>
+			<tilt>24.75520147019387</tilt>
+			<range>2234.896981163922</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.94751894558703,40.48724366273912,0 -79.94956574180974,40.4862614141195,0 -79.94997373249286,40.48629335454482,0 -79.95194879638507,40.48561191320155,0 -79.95512488985361,40.48407918640859,0 -79.95673771672351,40.48315305349168,0 -79.95894267288428,40.48209804777953,0 -79.96144437627663,40.47996874476008,0 -79.96549062945904,40.47421645489666,0 -79.96653217853999,40.47175435495738,0 -79.9721717400929,40.46465897048455,0 -79.96617950568213,40.45949141677254,0 -79.95572801952417,40.46082327152109,0 -79.95263025143753,40.46367086327514,0 -79.9570799764891,40.46257596931078,0 -79.95790107177139,40.46471313219187,0 -79.95207530526679,40.46592127910906,0 -79.94648967731293,40.46504101127903,0 -79.94600690052077,40.46683080064569,0 -79.94721537109393,40.46896990878079,0 -79.94601615734216,40.47041989230599,0 -79.94282034089967,40.47217399206075,0 -79.9371444697383,40.47314882591457,0 -79.93829608466888,40.47416117755003,0 -79.94386014824897,40.47805778975801,0 -79.94554503496434,40.47795096878969,0 -79.946736204481,40.47760611085732,0 -79.94887101080859,40.47829593333947,0 -79.94935237763853,40.47888566165175,0 -79.94890059946418,40.4796123484507,0 -79.9478125256646,40.48020907434803,0 -79.94922605770495,40.48151068118079,0 -79.94841635777622,40.48248153968999,0 -79.94746274814258,40.48374695872261,0 -79.94568121899303,40.48441271014789,0 -79.94451162511072,40.48352442826008,0 -79.94414993876669,40.48363529413306,0 -79.9456151861247,40.48501688397338,0 -79.93730046631865,40.4881955481413,0 -79.93790870592768,40.48969517055011,0 -79.94751894558703,40.48724366273912,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
